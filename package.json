@@ -1,6 +1,6 @@
 {
   "name": "@lo/eslint-config-monorepo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "license": "MIT",
   "author": "LoTwT <709937065@qq.com> (https://github.com/LoTwT/)",
