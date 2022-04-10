@@ -8,12 +8,14 @@ importers:
       bumpp: ^7.1.1
       eslint: ^8.13.0
       eslint-plugin-lo: workspace:*
+      pnpm: ^6.32.6
       typescript: ^4.6.3
     devDependencies:
       '@lo/eslint-config': link:packages/all
       bumpp: 7.1.1
       eslint: 8.13.0
       eslint-plugin-lo: link:packages/eslint-plugin-lo
+      pnpm: 6.32.6
       typescript: 4.6.3
 
   packages/all:
@@ -2673,6 +2675,12 @@ packages:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
     dev: false
+
+  /pnpm/6.32.6:
+    resolution: {integrity: sha512-ucrdCw3F/qjjzoR9+UtLXH1jkDqsbinz+hzSz54WQOOPt/F+9uxm8irrO/mdGkmsy844kAX6vsfS85gZLTg+yA==}
+    engines: {node: '>=12.17'}
+    hasBin: true
+    dev: true
 
   /postcss/8.4.12:
     resolution: {integrity: sha512-lg6eITwYe9v6Hr5CncVbK70SoioNQIq81nsaG86ev5hAidQvmOeETBqs7jm43K2F5/Ley3ytDtriImV6TpNiSg==}
