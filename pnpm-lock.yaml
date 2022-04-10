@@ -87,11 +87,13 @@ importers:
   packages/eslint-plugin-lo:
     specifiers:
       '@typescript-eslint/utils': ^5.17.0
+      rimraf: ^3.0.2
       unbuild: ^0.7.0
       vitest: ^0.8.2
     dependencies:
       '@typescript-eslint/utils': 5.18.0_eslint@8.13.0+typescript@4.6.3
     devDependencies:
+      rimraf: 3.0.2
       unbuild: 0.7.2
       vitest: 0.8.5
 
