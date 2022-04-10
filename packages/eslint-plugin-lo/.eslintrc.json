@@ -1,0 +1,9 @@
+{
+  "extends": "@lo",
+  "plugins": [
+    "lo"
+  ],
+  "rules": {
+    "lo/no-leading-newline": "error"
+  }
+}

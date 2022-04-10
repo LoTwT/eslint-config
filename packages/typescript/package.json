@@ -1,0 +1,27 @@
+{
+  "name": "@lo/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "LoTwT <709937065@qq.com> (https://github.com/LoTwT/)",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@lo/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
