@@ -87,11 +87,13 @@ importers:
   packages/eslint-plugin-lo:
     specifiers:
       '@typescript-eslint/utils': ^5.17.0
+      nr: ^0.1.0
       unbuild: ^0.7.0
       vitest: ^0.8.2
     dependencies:
       '@typescript-eslint/utils': 5.18.0_eslint@8.13.0+typescript@4.6.3
     devDependencies:
+      nr: 0.1.0
       unbuild: 0.7.2
       vitest: 0.8.5
 
@@ -909,6 +911,10 @@ packages:
       typical: 4.0.0
     dev: true
 
+  /commander/2.20.3:
+    resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
+    dev: true
+
   /commondir/1.0.1:
     resolution: {integrity: sha512-W9pAhw0ja1Edb5GVdIF1mjZw/ASI0AlShXM83UUGe2DVr5TdAPEA1OA8m/g8zWp9x6On7gqufY+FatDbC3MDQg==}
     dev: true
@@ -963,6 +969,11 @@ packages:
     engines: {node: '>=0.12'}
     dependencies:
       type-detect: 4.0.8
+    dev: true
+
+  /deep-extend/0.2.11:
+    resolution: {integrity: sha512-t2N+4ihO7YgydJOUI47I6GdXpONJ+jUZmYeTNiifALaEduiCja1mKcq3tuSp0RhA9mMfxdMN3YskpwB7puMAtw==}
+    engines: {node: '>=0.4'}
     dev: true
 
   /deep-is/0.1.4:
@@ -2050,6 +2061,10 @@ packages:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
     dev: true
 
+  /ini/1.3.8:
+    resolution: {integrity: sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==}
+    dev: true
+
   /internal-slot/1.0.3:
     resolution: {integrity: sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA==}
     engines: {node: '>= 0.4'}
@@ -2399,6 +2414,10 @@ packages:
     dependencies:
       brace-expansion: 1.1.11
 
+  /minimist/0.0.10:
+    resolution: {integrity: sha512-iotkTvxc+TwOm5Ieim8VnSNvCDjCK9S8G3scJ50ZthspSxa7jx50jkhYduuAtAjvfDUwSgOwf8+If99AlOEhyw==}
+    dev: true
+
   /minimist/1.2.6:
     resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: false
@@ -2473,6 +2492,14 @@ packages:
       semver: 5.7.1
       validate-npm-package-license: 3.0.4
     dev: false
+
+  /nr/0.1.0:
+    resolution: {integrity: sha512-SQtRvg8NJFR4O5l5+CLdxy71KCcKUU/JfbTm8Hee9UXKbkJi7XNK3xZBl/MkvVvZYMsYbflW1gB2T7RdblvTeA==}
+    hasBin: true
+    dependencies:
+      commander: 2.20.3
+      rc: 0.5.5
+    dev: true
 
   /object-assign/4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
@@ -2714,6 +2741,16 @@ packages:
 
   /queue-microtask/1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+
+  /rc/0.5.5:
+    resolution: {integrity: sha512-QkkuJHJX7fh7nCFLPIZ9h/E2/V9ZULgH3GsQtS1N2ZbHYmRtp+ZE37mB79ZlFa/AM0zoE8qjzTpeu8Rwer00ug==}
+    hasBin: true
+    dependencies:
+      deep-extend: 0.2.11
+      ini: 1.3.8
+      minimist: 0.0.10
+      strip-json-comments: 0.1.3
+    dev: true
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -2982,6 +3019,12 @@ packages:
     dependencies:
       min-indent: 1.0.1
     dev: false
+
+  /strip-json-comments/0.1.3:
+    resolution: {integrity: sha512-d2RPtrkLs8TurFFAIhW8IdM0+cOq+QFETWBGKHO+93eZ4Zt4P1CeJB5LHKW4EfEwabEpPL8/UTO3QX94+lqxwQ==}
+    engines: {node: '>=0.8.0'}
+    hasBin: true
+    dev: true
 
   /strip-json-comments/3.1.1:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}

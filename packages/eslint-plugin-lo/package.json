@@ -25,6 +25,7 @@
     "@typescript-eslint/utils": "^5.17.0"
   },
   "devDependencies": {
+    "nr": "^0.1.0",
     "unbuild": "^0.7.0",
     "vitest": "^0.8.2"
   }
