@@ -1,5 +1,5 @@
 {
-  "name": "@lo/eslint-config-vue",
+  "name": "@lotwt/eslint-config-vue",
   "version": "0.0.5",
   "description": "",
   "keywords": [],
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lo/eslint-config-ts": "workspace:*",
+    "@lotwt/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {

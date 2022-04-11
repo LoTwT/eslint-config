@@ -29,7 +29,7 @@ module.exports = {
     "!.vitepress",
     "!.vscode",
   ],
-  plugins: ["html", "unicorn", "lo"],
+  plugins: ["html", "unicorn", "lotwt"],
   settings: {
     "import/resolver": {
       node: { extensions: [".js", ".mjs"] },
@@ -297,9 +297,9 @@ module.exports = {
     "yml/quotes": ["error", { prefer: "single", avoidEscape: false }],
     "yml/no-empty-document": "off",
 
-    // lo
-    "lo/no-leading-newline": "error",
-    "lo/if-newline": "error",
-    // 'lo/prefer-inline-type-import': 'error',
+    // lotwt
+    "lotwt/no-leading-newline": "error",
+    "lotwt/if-newline": "error",
+    // 'lotwt/prefer-inline-type-import': 'error',
   },
 }

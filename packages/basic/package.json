@@ -1,5 +1,5 @@
 {
-  "name": "@lo/eslint-config-basic",
+  "name": "@lotwt/eslint-config-basic",
   "version": "0.0.5",
   "description": "",
   "keywords": [],
@@ -20,7 +20,7 @@
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsonc": "^2.2.1",
-    "eslint-plugin-lo": "workspace:*",
+    "eslint-plugin-lotwt": "workspace:*",
     "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-n": "^15.1.0",
     "eslint-plugin-promise": "^6.0.0",

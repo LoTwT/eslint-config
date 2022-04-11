@@ -1,5 +1,5 @@
 {
-  "name": "@lo/eslint-config-react",
+  "name": "@lotwt/eslint-config-react",
   "version": "0.0.5",
   "description": "",
   "keywords": [],
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@lo/eslint-config-ts": "workspace:*",
+    "@lotwt/eslint-config-ts": "workspace:*",
     "eslint-plugin-react": "^7.29.4"
   },
   "devDependencies": {

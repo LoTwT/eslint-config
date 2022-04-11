@@ -1,9 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const basic = require("@lo/eslint-config-basic")
+const basic = require("@lotwt/eslint-config-basic")
 
 module.exports = {
   extends: [
-    "@lo/eslint-config-basic",
+    "@lotwt/eslint-config-basic",
     "plugin:import/typescript",
     "plugin:@typescript-eslint/recommended",
   ],

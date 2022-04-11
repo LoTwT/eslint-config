@@ -1,0 +1,9 @@
+{
+  "extends": "@lotwt",
+  "plugins": [
+    "lotwt"
+  ],
+  "rules": {
+    "lotwt/no-leading-newline": "error"
+  }
+}

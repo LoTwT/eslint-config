@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-lo",
+  "name": "eslint-plugin-lotwt",
   "version": "0.0.5",
   "license": "MIT",
   "main": "./dist/index.cjs",

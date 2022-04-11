@@ -1,4 +1,4 @@
-# @lo/eslint-config
+# @lotwt/eslint-config
 
 This repo is forked from [antfu/eslint-config](https://github.com/antfu/eslint-config).
 
@@ -16,14 +16,14 @@ This repo is forked from [antfu/eslint-config](https://github.com/antfu/eslint-c
 ### Install
 
 ```bash
-pnpm add -D eslint @lo/eslint-config
+pnpm add -D eslint @lotwt/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@lo"
+  "extends": "@lotwt"
 }
 ```
 
