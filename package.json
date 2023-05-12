@@ -1,21 +1,31 @@
 {
-  "name": "@lotwt/eslint-config-monorepo",
+  "name": "eslint-config-monorepo",
   "version": "0.0.5",
-  "private": true,
+  "private": "true",
+  "packageManager": "pnpm@8.5.0",
+  "description": "eslint-config-monorepo",
+  "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
-  "author": "LoTwT <709937065@qq.com> (https://github.com/LoTwT/)",
+  "homepage": "https://github.com/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eslint-config/issues"
+  },
   "scripts": {
-    "lint": "eslint --fix .",
-    "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push --tag",
-    "pub": "pnpm -r publish --access public"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp -r && pnpm -r publish",
+    "up": "taze latest -I -r"
   },
   "devDependencies": {
-    "@lotwt/eslint-config": "workspace:*",
-    "bumpp": "^7.1.1",
-    "eslint": "^8.13.0",
-    "eslint-plugin-lotwt": "workspace:*",
-    "pnpm": "^6.32.6",
-    "typescript": "^4.6.3"
+    "@ayingott/eslint-config": "workspace:*",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.40.0",
+    "pnpm": "^8.5.0",
+    "taze": "^0.10.1",
+    "typescript": "^5.0.4"
   }
 }
