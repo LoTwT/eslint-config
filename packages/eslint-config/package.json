@@ -4,6 +4,10 @@
   "description": "ayingott's eslint config",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/eslint-config#readme",
   "repository": {
     "type": "git",
