@@ -18,14 +18,23 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "release": "bumpp -r && pnpm -r publish",
-    "up": "taze latest -I -r"
+    "up": "taze latest -I -r",
+    "prepare": "simple-git-hooks"
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.41.0",
+    "lint-staged": "^13.2.2",
     "pnpm": "^8.5.1",
+    "simple-git-hooks": "^2.8.1",
     "taze": "^0.10.1",
     "typescript": "^5.0.4"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
   }
 }
