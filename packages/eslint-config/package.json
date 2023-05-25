@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config-vue": "^0.39.3",
+    "@sxzz/eslint-config-prettier": "^2.4.6",
     "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -43,7 +44,6 @@
     "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
-    "@sxzz/eslint-config-prettier": "^2.4.6",
     "eslint": "^8.41.0",
     "prettier": "^2.8.8"
   }
