@@ -3,8 +3,8 @@ module.exports = {
   rules: {
     "antfu/top-level-function": "off",
     "antfu/if-newline": "off",
-    quotes: ["error", "double"],
-    "@typescript-eslint/quotes": ["error", "double"],
-    "yml/quotes": ["error", { prefer: "double", avoidEscape: false }],
+    quotes: ["error", "double", { avoidEscape: true }],
+    "@typescript-eslint/quotes": ["error", "double", { avoidEscape: true }],
+    "yml/quotes": ["error", { prefer: "double", avoidEscape: true }],
   },
 }
