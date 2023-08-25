@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "target": "es2020",
-    "module": "es2020",
-    "moduleResolution": "node"
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
   },
-  "include": ["./packages/**/*.ts"]
+  "include": ["*.ts"]
 }

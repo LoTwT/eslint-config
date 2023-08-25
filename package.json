@@ -1,32 +1,28 @@
 {
   "name": "eslint-config-monorepo",
   "version": "0.2.7",
-  "private": "true",
+  "private": true,
   "packageManager": "pnpm@8.6.12",
-  "description": "eslint-config-monorepo",
+  "description": "eslint-config",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/eslint-config#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/eslint-config/issues"
-  },
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "release": "bumpp -r && pnpm -r publish",
-    "up": "taze latest -I -r",
-    "prepare": "simple-git-hooks"
+    "prettier": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm build",
+    "release": "bumpp && npm publish",
+    "prepare": "simple-git-hooks",
+    "up": "taze latest -I"
   },
   "devDependencies": {
-    "@ayingott/eslint-config": "workspace:*",
+    "@ayingott/eslint-config": "^0.2.7",
+    "@types/node": "^20.5.6",
     "bumpp": "^9.2.0",
     "eslint": "^8.47.0",
     "lint-staged": "^14.0.1",
     "pnpm": "^8.6.12",
+    "prettier": "^3.0.2",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.11.2",
     "typescript": "^5.2.2"
@@ -36,5 +32,8 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "eslintConfig": {
+    "extends": "@ayingott/eslint-config"
   }
 }
