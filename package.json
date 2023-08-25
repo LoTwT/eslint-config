@@ -2,7 +2,7 @@
   "name": "eslint-config-monorepo",
   "version": "0.2.7",
   "private": "true",
-  "packageManager": "pnpm@8.6.11",
+  "packageManager": "pnpm@8.6.12",
   "description": "eslint-config-monorepo",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
@@ -23,13 +23,13 @@
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.46.0",
-    "lint-staged": "^13.2.3",
-    "pnpm": "^8.6.11",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.47.0",
+    "lint-staged": "^14.0.1",
+    "pnpm": "^8.6.12",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.11.2",
-    "typescript": "^5.1.6"
+    "typescript": "^5.2.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
