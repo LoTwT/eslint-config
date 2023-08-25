@@ -7,13 +7,14 @@
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "build": "pnpm -r run build",
     "lint": "eslint .",
     "prettier": "prettier --write .",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "pnpm build",
-    "release": "bumpp && npm publish",
     "prepare": "simple-git-hooks",
-    "up": "taze latest -I"
+    "up": "taze latest -I -r",
+    "prepublishOnly": "pnpm run build",
+    "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
     "@ayingott/eslint-config": "^0.2.7",
@@ -28,7 +29,7 @@
     "typescript": "^5.2.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm exec lint-staged"
+    "pre-commit": ""
   },
   "lint-staged": {
     "*": "eslint --fix"

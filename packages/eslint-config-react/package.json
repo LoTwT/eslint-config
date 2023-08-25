@@ -1,0 +1,49 @@
+{
+  "name": "@ayingott/eslint-config-react",
+  "version": "0.2.7",
+  "packageManager": "pnpm@8.6.12",
+  "description": "@ayingott/eslint-config-react",
+  "author": "LoTwT <l709937065@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/LoTwT/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoTwT/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LoTwT/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint-config"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "pnpm": "^8.6.12",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
