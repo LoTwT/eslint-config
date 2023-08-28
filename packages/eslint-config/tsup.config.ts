@@ -11,5 +11,4 @@ export default defineConfig({
 const __filename = (await import("node:url")).fileURLToPath(import.meta.url);
 const __dirname = (await import("node:path")).dirname(__filename);`,
   },
-  external: ["eslint"],
 })
