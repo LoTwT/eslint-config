@@ -42,8 +42,14 @@
     "build": "tsup"
   },
   "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-define-config": "^1.23.0",
     "pnpm": "^8.6.12",
+    "prettier": "^3.0.2",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@sxzz/eslint-config": "^3.4.0"
   }
 }
