@@ -9,7 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r run build",
-    "lint": "ESLINT_USE_FLAT_CONFIG=true eslint --config eslint.config.js .",
+    "lint": "eslint .",
     "prettier": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
@@ -33,6 +33,6 @@
     "pre-commit": "pnpm exec lint-staged"
   },
   "lint-staged": {
-    "*": "pnpm run lint --fix"
+    "*": "eslint --fix"
   }
 }
