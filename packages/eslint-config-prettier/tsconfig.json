@@ -11,5 +11,5 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
   },
-  "include": ["**/*.ts", "shims.d.ts"]
+  "include": ["**/*.ts"]
 }
