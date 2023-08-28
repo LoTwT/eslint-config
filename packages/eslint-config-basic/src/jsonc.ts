@@ -1,9 +1,13 @@
 import { jsonc as SxzzJsonc } from "@sxzz/eslint-config"
 import { FlatESLintConfigItem } from "eslint-define-config"
+import jsoncPlugin from "eslint-plugin-jsonc"
 
 export const jsonc: FlatESLintConfigItem[] = [
   ...SxzzJsonc,
   {
+    plugins: {
+      jsonc: jsoncPlugin,
+    },
     rules: {
       "jsonc/array-bracket-spacing": ["error", "never"],
       "jsonc/comma-dangle": ["error", "never"],

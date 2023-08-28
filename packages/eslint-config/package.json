@@ -1,8 +1,8 @@
 {
   "name": "@ayingott/eslint-config",
   "version": "0.2.7",
-  "packageManager": "pnpm@8.6.12",
   "description": "@ayingott/eslint-config",
+  "packageManager": "pnpm@8.7.0",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -41,13 +41,6 @@
   "scripts": {
     "build": "tsup"
   },
-  "devDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.6.12",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
-  },
   "dependencies": {
     "@ayingott/eslint-config-basic": "workspace:*",
     "@ayingott/eslint-config-markdown": "workspace:*",
@@ -55,5 +48,12 @@
     "@ayingott/eslint-config-react": "workspace:*",
     "@ayingott/eslint-config-unocss": "workspace:*",
     "@ayingott/eslint-config-vue": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-define-config": "^1.23.0",
+    "pnpm": "^8.7.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }

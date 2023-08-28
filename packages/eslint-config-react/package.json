@@ -1,8 +1,8 @@
 {
   "name": "@ayingott/eslint-config-react",
   "version": "0.2.7",
-  "packageManager": "pnpm@8.6.12",
   "description": "@ayingott/eslint-config-react",
+  "packageManager": "pnpm@8.7.0",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -41,15 +41,15 @@
   "scripts": {
     "build": "tsup"
   },
-  "devDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.6.12",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2"
-  },
   "dependencies": {
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "eslint-define-config": "^1.23.0",
+    "pnpm": "^8.7.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }

@@ -2,6 +2,7 @@ import reactPlugin from "eslint-plugin-react"
 import reactHooksPlugin from "eslint-plugin-react-hooks"
 
 import { FlatESLintConfigItem } from "eslint-define-config"
+
 const react: FlatESLintConfigItem[] = [
   {
     plugins: {
