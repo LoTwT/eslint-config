@@ -6,4 +6,5 @@ export default defineConfig({
   clean: true,
   target: "esnext",
   dts: true,
+  external: ["eslint"],
 })

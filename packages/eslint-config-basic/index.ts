@@ -14,7 +14,7 @@ export { js, jsx, imports, unicorn, ts, eslintComments, jsonc, yml }
 // constant
 export * from "./src/constant"
 
-const basicEslintConfig = [
+const basic = [
   { ignores: GLOB_EXCLUDE },
   ...js,
   ...jsx,
@@ -28,4 +28,5 @@ const basicEslintConfig = [
 ]
 
 // eslint-config
-export default basicEslintConfig
+export { basic }
+export default basic

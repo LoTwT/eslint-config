@@ -40,7 +40,32 @@ importers:
         version: 5.2.2
 
   packages/eslint-config:
+    dependencies:
+      '@ayingott/eslint-config-basic':
+        specifier: workspace:*
+        version: link:../eslint-config-basic
+      '@ayingott/eslint-config-markdown':
+        specifier: workspace:*
+        version: link:../eslint-config-markdown
+      '@ayingott/eslint-config-prettier':
+        specifier: workspace:*
+        version: link:../eslint-config-prettier
+      '@ayingott/eslint-config-react':
+        specifier: workspace:*
+        version: link:../eslint-config-react
+      '@ayingott/eslint-config-unocss':
+        specifier: workspace:*
+        version: link:../eslint-config-unocss
+      '@ayingott/eslint-config-vue':
+        specifier: workspace:*
+        version: link:../eslint-config-vue
     devDependencies:
+      eslint:
+        specifier: ^8.47.0
+        version: 8.47.0
+      eslint-define-config:
+        specifier: ^1.23.0
+        version: 1.23.0
       pnpm:
         specifier: ^8.6.12
         version: 8.6.12

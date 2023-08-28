@@ -42,8 +42,18 @@
     "build": "tsup"
   },
   "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-define-config": "^1.23.0",
     "pnpm": "^8.6.12",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@ayingott/eslint-config-basic": "workspace:*",
+    "@ayingott/eslint-config-markdown": "workspace:*",
+    "@ayingott/eslint-config-prettier": "workspace:*",
+    "@ayingott/eslint-config-react": "workspace:*",
+    "@ayingott/eslint-config-unocss": "workspace:*",
+    "@ayingott/eslint-config-vue": "workspace:*"
   }
 }
