@@ -70,6 +70,4 @@ export default defineFlatEslintConfig(
 
 ## License
 
-[MIT](./LICENSE)
-
-Copyright (c) 2023 [LoTwT](https://github.com/LoTwT)
+[MIT](./LICENSE) Copyright (c) 2023 [LoTwT](https://github.com/LoTwT)
