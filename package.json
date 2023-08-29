@@ -14,8 +14,7 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
     "up": "taze latest -I -r",
-    "prepublishOnly": "pnpm run build",
-    "release": "bumpp -r && pnpm -r publish"
+    "release": "pnpm build && bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:^",
