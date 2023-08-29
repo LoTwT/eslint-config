@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "@ayingott/eslint-config",
   "packageManager": "pnpm@8.7.0",
   "author": "LoTwT <l709937065@gmail.com>",
