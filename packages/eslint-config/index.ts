@@ -50,3 +50,7 @@ export const defineFlatEslintConfig: DefineFlatEslintConfig = (
 
   return configs
 }
+
+const all = [...basic, ...markdown, ...prettier, ...react, ...vue, ...unocss]
+
+export default all
