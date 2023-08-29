@@ -16,6 +16,16 @@ type DefineFlatEslintConfig = (
   }>,
 ) => FlatESLintConfigItem[]
 
+/**
+ * define flat eslint config
+ * @param customConfigs your custom configs
+ * @param presets out-of-box presets, default {
+    prettier: true,
+    react: false,
+    vue: false,
+    unocss: false
+  }
+ */
 export const defineFlatEslintConfig: DefineFlatEslintConfig = (
   customConfigs = [],
   presets = {
@@ -51,6 +61,9 @@ export const defineFlatEslintConfig: DefineFlatEslintConfig = (
   return configs
 }
 
+/**
+ * with all out-of-box features
+ */
 const all = [...basic, ...markdown, ...prettier, ...react, ...vue, ...unocss]
 
 export default all
