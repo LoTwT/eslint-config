@@ -11,6 +11,9 @@ importers:
       '@ayingott/eslint-config':
         specifier: workspace:^
         version: link:packages/eslint-config
+      '@ayingott/prettier-config':
+        specifier: ^0.1.0
+        version: 0.1.0
       '@types/node':
         specifier: ^20.5.7
         version: 20.5.7
@@ -238,6 +241,12 @@ packages:
   /@antfu/utils@0.7.6:
     resolution: {integrity: sha512-pvFiLP2BeOKA/ZOS6jxx4XhKzdVLHDhGlFEaZ2flWWYf2xOqVniqpk38I04DFRyz+L0ASggl7SkItTc+ZLju4w==}
     dev: false
+
+  /@ayingott/prettier-config@0.1.0:
+    resolution: {integrity: sha512-X7nDWJ+55oTQUd7iBjkV0GfCdYCB7czLb7HAa3J0bVJBQYBCb73xas3NXeIlPPHJXmOlOetJcl2O8SN58nYQDA==}
+    dependencies:
+      '@sxzz/prettier-config': 1.0.4
+    dev: true
 
   /@babel/code-frame@7.22.10:
     resolution: {integrity: sha512-/KKIMG4UEL35WmI9OlvMhurwtytjvXoFcGNrOvyG9zIzA8YmPjVtIZUf7b05+TPO7G7/GEmLHDaoCgACHl9hhA==}
@@ -745,6 +754,10 @@ packages:
       - supports-color
       - typescript
     dev: false
+
+  /@sxzz/prettier-config@1.0.4:
+    resolution: {integrity: sha512-KqgPNwMYloKI+LGAW8LwS0hEJHgwnrIJjgQC0B/saoDJZKUIrqc+lLme/lobrzBetPNhrCuhSDELRrZTg32l0w==}
+    dev: true
 
   /@tootallnate/once@2.0.0:
     resolution: {integrity: sha512-XCuKFP5PS55gnMVu3dty8KPatLqUoy/ZYzDzAGCQ8JNFCkLXzmI7vNHCR+XpbZaMWQK/vQubr7PkYq8g470J/A==}
