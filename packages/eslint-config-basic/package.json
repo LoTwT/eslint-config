@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@eslint/js": "^8.48.0",
-    "@sxzz/eslint-config": "^3.4.0",
+    "@sxzz/eslint-config": "^3.5.0",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint-config-prettier": "^9.0.0",
@@ -53,6 +53,7 @@
     "eslint-plugin-jsonc": "^2.9.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-unicorn": "^48.0.1",
+    "eslint-plugin-unused-imports": "^3.0.0",
     "eslint-plugin-yml": "^1.8.0",
     "globals": "^13.21.0",
     "jsonc-eslint-parser": "^2.3.0",
