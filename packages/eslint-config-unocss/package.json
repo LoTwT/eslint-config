@@ -42,7 +42,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^3.5.0",
+    "@sxzz/eslint-config": "^3.5.1",
     "@unocss/eslint-plugin": "^0.55.3"
   },
   "devDependencies": {

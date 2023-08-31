@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@ayingott/eslint-config':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:packages/eslint-config
       '@ayingott/prettier-config':
         specifier: ^0.1.0
@@ -85,8 +85,8 @@ importers:
         specifier: ^8.48.0
         version: 8.48.0
       '@sxzz/eslint-config':
-        specifier: ^3.5.0
-        version: 3.5.0(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^3.5.1
+        version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       '@typescript-eslint/eslint-plugin':
         specifier: ^6.5.0
         version: 6.5.0(@typescript-eslint/parser@6.5.0)(eslint@8.48.0)(typescript@5.2.2)
@@ -149,8 +149,8 @@ importers:
   packages/eslint-config-markdown:
     dependencies:
       '@sxzz/eslint-config':
-        specifier: ^3.5.0
-        version: 3.5.0(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^3.5.1
+        version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       eslint-plugin-markdown:
         specifier: ^3.0.1
         version: 3.0.1(eslint@8.48.0)
@@ -174,8 +174,8 @@ importers:
   packages/eslint-config-prettier:
     dependencies:
       '@sxzz/eslint-config':
-        specifier: ^3.5.0
-        version: 3.5.0(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^3.5.1
+        version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       eslint-config-prettier:
         specifier: ^9.0.0
         version: 9.0.0(eslint@8.48.0)
@@ -230,8 +230,8 @@ importers:
   packages/eslint-config-unocss:
     dependencies:
       '@sxzz/eslint-config':
-        specifier: ^3.5.0
-        version: 3.5.0(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^3.5.1
+        version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       '@unocss/eslint-plugin':
         specifier: ^0.55.3
         version: 0.55.3(eslint@8.48.0)(typescript@5.2.2)
@@ -255,8 +255,8 @@ importers:
   packages/eslint-config-vue:
     dependencies:
       '@sxzz/eslint-config':
-        specifier: ^3.5.0
-        version: 3.5.0(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^3.5.1
+        version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       eslint-plugin-vue:
         specifier: ^9.17.0
         version: 9.17.0(eslint@8.48.0)
@@ -776,8 +776,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /@sxzz/eslint-config@3.5.0(eslint@8.48.0)(typescript@5.2.2):
-    resolution: {integrity: sha512-rGmy9hydKtRMeispMMmUgs5hgepKV69GeCl1lY79FQ7iMk10/gd5pkZcx5HKUURsl3Jg8MSy/Vdsa4YiqsXPGA==}
+  /@sxzz/eslint-config@3.5.1(eslint@8.48.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-BJaMAl+ytdfLeIGtGUrNOcvWBE1pXOkLxfbTw8cSsAmyOoyuLKMjW3SzYDbR3NWqugCHkEnRBDSke5wksvJ59w==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       eslint: ^8.0.0
@@ -796,6 +796,7 @@ packages:
       eslint-plugin-markdown: 3.0.1(eslint@8.48.0)
       eslint-plugin-prettier: 5.0.0(eslint-config-prettier@9.0.0)(eslint@8.48.0)(prettier@3.0.3)
       eslint-plugin-unicorn: 48.0.1(eslint@8.48.0)
+      eslint-plugin-unused-imports: 3.0.0(@typescript-eslint/eslint-plugin@6.5.0)(eslint@8.48.0)
       eslint-plugin-vue: 9.17.0(eslint@8.48.0)
       eslint-plugin-yml: 1.8.0(eslint@8.48.0)
       globals: 13.21.0

@@ -23,3 +23,15 @@ declare module "@sxzz/eslint-config" {
     yml,
   }
 }
+
+declare module "eslint-plugin-import" {
+  const configs: any
+  const rules: any
+
+  export default { configs, rules }
+}
+
+declare module "eslint-plugin-unused-imports" {
+  const plugin: any
+  export default plugin
+}

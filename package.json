@@ -17,7 +17,7 @@
     "release": "pnpm build && bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@ayingott/eslint-config": "workspace:^",
+    "@ayingott/eslint-config": "workspace:*",
     "@ayingott/prettier-config": "^0.1.0",
     "@types/node": "^20.5.7",
     "bumpp": "^9.2.0",
