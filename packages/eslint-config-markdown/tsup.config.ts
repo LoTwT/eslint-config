@@ -6,4 +6,7 @@ export default defineConfig({
   clean: true,
   target: "esnext",
   dts: true,
+  splitting: true,
+  cjsInterop: true,
+  platform: "neutral",
 })
