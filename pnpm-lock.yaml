@@ -27,8 +27,8 @@ importers:
         specifier: ^14.0.1
         version: 14.0.1
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -70,8 +70,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -137,8 +137,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -177,8 +177,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -205,8 +205,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -233,8 +233,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -248,8 +248,8 @@ importers:
         specifier: ^3.5.1
         version: 3.5.1(eslint@8.48.0)(typescript@5.2.2)
       '@unocss/eslint-plugin':
-        specifier: ^0.55.3
-        version: 0.55.3(eslint@8.48.0)(typescript@5.2.2)
+        specifier: ^0.55.4
+        version: 0.55.4(eslint@8.48.0)(typescript@5.2.2)
     devDependencies:
       eslint:
         specifier: ^8.48.0
@@ -258,8 +258,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -289,8 +289,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.0
-        version: 8.7.0
+        specifier: ^8.7.1
+        version: 8.7.1
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -1022,8 +1022,20 @@ packages:
       unconfig: 0.3.10
     dev: false
 
+  /@unocss/config@0.55.4:
+    resolution: {integrity: sha512-5+IjjLaYftZKBkSRXV47nLnyM2A+VP/Tk9ZJ6guzQi0KsshoGOWBVdLJ3BhRNoJPI07xaNbKRkqfk5GwIHFz8A==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@unocss/core': 0.55.4
+      unconfig: 0.3.10
+    dev: false
+
   /@unocss/core@0.55.3:
     resolution: {integrity: sha512-2hV9QlE/iOM4DHQ7i6L8sMC1t5/OVAz6AfGHjetTXcgbNfDCsHWqE8jhLZ1y2DeUvKwJvj2A09sYbYQ8E27+Gg==}
+    dev: false
+
+  /@unocss/core@0.55.4:
+    resolution: {integrity: sha512-U4Jzw6ID92gUAyHsojvAJtUCr22vOTcSbF5pHcDtaJkwnisM+RZAYgSf+KiHT5ylGr7o7fajfJT4hAom3Qfp5Q==}
     dev: false
 
   /@unocss/eslint-plugin@0.55.3(eslint@8.48.0)(typescript@5.2.2):
@@ -1033,6 +1045,21 @@ packages:
       '@typescript-eslint/utils': 6.5.0(eslint@8.48.0)(typescript@5.2.2)
       '@unocss/config': 0.55.3
       '@unocss/core': 0.55.3
+      magic-string: 0.30.3
+      synckit: 0.8.5
+    transitivePeerDependencies:
+      - eslint
+      - supports-color
+      - typescript
+    dev: false
+
+  /@unocss/eslint-plugin@0.55.4(eslint@8.48.0)(typescript@5.2.2):
+    resolution: {integrity: sha512-syvUShEIDh/nVxZsQ385to1J1EEjkQadBGXRNp6IfBan+atJhye8FJa+SO/eIRFGsrfXN7i7eHwdkZW/aCA88g==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@typescript-eslint/utils': 6.5.0(eslint@8.48.0)(typescript@5.2.2)
+      '@unocss/config': 0.55.4
+      '@unocss/core': 0.55.4
       magic-string: 0.30.3
       synckit: 0.8.5
     transitivePeerDependencies:
@@ -4588,8 +4615,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /pnpm@8.7.0:
-    resolution: {integrity: sha512-HWH4wQ6KWl2/vd6g8fXvt9vVF3IjBzrslTzyMKpGQWiEuUJ6ZCHbp48orQ+T++3ji6VwgyN7NQJD3mseOoznHQ==}
+  /pnpm@8.7.1:
+    resolution: {integrity: sha512-Qbt3EhYUaXFS2k4FLQA7r2/eYz/JoDeG680/3UXG0Ga03LPuY4GgdvCLe+zO3M7ZnWG4VI4bAwk7QpJyfr5eqA==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true

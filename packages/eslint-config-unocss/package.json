@@ -2,7 +2,7 @@
   "name": "@ayingott/eslint-config-unocss",
   "version": "0.4.0",
   "description": "@ayingott/eslint-config-unocss",
-  "packageManager": "pnpm@8.7.0",
+  "packageManager": "pnpm@8.7.1",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -43,12 +43,12 @@
   },
   "dependencies": {
     "@sxzz/eslint-config": "^3.5.1",
-    "@unocss/eslint-plugin": "^0.55.3"
+    "@unocss/eslint-plugin": "^0.55.4"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.7.0",
+    "pnpm": "^8.7.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
