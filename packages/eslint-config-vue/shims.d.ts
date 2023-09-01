@@ -5,3 +5,5 @@ declare module "@sxzz/eslint-config" {
 
   export { vue }
 }
+
+declare module "eslint-plugin-vue"

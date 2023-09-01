@@ -1,9 +1,27 @@
 import { vue as SxzzVue } from "@sxzz/eslint-config"
-import { FlatESLintConfigItem } from "eslint-define-config"
+import { type FlatESLintConfigItem } from "eslint-define-config"
+import vuePlugin from "eslint-plugin-vue"
+import vueParser from "vue-eslint-parser"
 
 export const vue: FlatESLintConfigItem[] = [
   ...SxzzVue,
   {
+    files: ["**/*.vue"],
+    plugins: {
+      vue: vuePlugin,
+    },
+    languageOptions: {
+      parser: vueParser,
+      parserOptions: {
+        parser: "@typescript-eslint/parser",
+        sourceType: "module",
+        extraFileExtensions: [".vue"],
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+    processor: vuePlugin.processors[".vue"],
     rules: {
       "vue/max-attributes-per-line": "off",
       "vue/no-v-html": "off",
