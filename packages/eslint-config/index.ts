@@ -4,7 +4,7 @@ import { prettier } from "@ayingott/eslint-config-prettier"
 import { react } from "@ayingott/eslint-config-react"
 import { unocss } from "@ayingott/eslint-config-unocss"
 import { vue } from "@ayingott/eslint-config-vue"
-import { FlatESLintConfigItem } from "eslint-define-config"
+import { type FlatESLintConfigItem } from "eslint-define-config"
 
 type DefineFlatEslintConfig = (
   customConfigs?: FlatESLintConfigItem[],
