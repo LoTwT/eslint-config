@@ -30,14 +30,6 @@ export const imports: FlatESLintConfigItem[] = [
         { count: 1, considerComments: true },
       ],
       "import/no-self-import": "error",
-      "unused-imports/no-unused-imports": offInEditor,
-      "unused-imports/no-unused-vars": [
-        "error",
-        {
-          args: "after-used",
-          ignoreRestSiblings: true,
-        },
-      ],
       "import/no-named-as-default-member": "off",
       "import/no-named-as-default": "off",
       "import/namespace": "off",
@@ -50,6 +42,17 @@ export const imports: FlatESLintConfigItem[] = [
           ignoreMemberSort: false,
           memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
           allowSeparatedGroups: false,
+        },
+      ],
+
+      "unused-imports/no-unused-imports": offInEditor,
+      "unused-imports/no-unused-vars": [
+        "warn",
+        {
+          vars: "all",
+          varsIgnorePattern: "^_",
+          args: "after-used",
+          argsIgnorePattern: "^_",
         },
       ],
     },
