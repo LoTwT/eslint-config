@@ -5,6 +5,7 @@ import importPlugin from "eslint-plugin-import"
 import unusedImportsPlugin from "eslint-plugin-unused-imports"
 import antfuPlugin from "eslint-plugin-antfu"
 import nPlugin from "eslint-plugin-n"
+import markdownPlugin from "eslint-plugin-markdown"
 
 export const markdown: FlatESLintConfigItem[] = [
   ...SxzzMarkdown,
@@ -16,7 +17,9 @@ export const markdown: FlatESLintConfigItem[] = [
       "unused-imports": unusedImportsPlugin,
       antfu: antfuPlugin,
       n: nPlugin,
+      markdown: markdownPlugin,
     },
+    processor: "markdown/markdown",
     rules: {
       "no-alert": "off",
       "no-console": "off",
@@ -41,7 +44,6 @@ export const markdown: FlatESLintConfigItem[] = [
 
       "antfu/no-cjs-exports": "off",
       "antfu/no-ts-export-equal": "off",
-
       "n/prefer-global/process": "off",
     },
   },
