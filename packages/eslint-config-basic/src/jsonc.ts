@@ -1,5 +1,5 @@
 import { jsonc as SxzzJsonc } from "@sxzz/eslint-config"
-import { FlatESLintConfigItem } from "eslint-define-config"
+import { type FlatESLintConfigItem } from "eslint-define-config"
 import jsoncPlugin from "eslint-plugin-jsonc"
 
 export const jsonc: FlatESLintConfigItem[] = [
@@ -30,6 +30,9 @@ export const jsonc: FlatESLintConfigItem[] = [
 
 export const pkgOrder: FlatESLintConfigItem[] = [
   {
+    plugins: {
+      jsonc: jsoncPlugin,
+    },
     files: ["**/package.json"],
     rules: {
       "jsonc/sort-keys": [

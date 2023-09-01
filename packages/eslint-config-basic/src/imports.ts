@@ -1,4 +1,4 @@
-import { FlatESLintConfigItem } from "eslint-define-config"
+import { type FlatESLintConfigItem } from "eslint-define-config"
 import { imports as SxzzImports } from "@sxzz/eslint-config"
 import importPlugin from "eslint-plugin-import"
 import unusedImportsPlugin from "eslint-plugin-unused-imports"
@@ -12,7 +12,7 @@ export const imports: FlatESLintConfigItem[] = [
   {
     plugins: {
       import: importPlugin,
-      unusedImport: unusedImportsPlugin,
+      "unused-imports": unusedImportsPlugin,
     },
     rules: {
       "import/export": "error",
