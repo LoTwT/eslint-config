@@ -7,7 +7,12 @@ const react: FlatESLintConfigItem[] = [
   {
     plugins: {
       react: reactPlugin,
-      reactHooks: reactHooksPlugin,
+      "react-hooks": reactHooksPlugin,
+    },
+    settings: {
+      react: {
+        version: "detect",
+      },
     },
     rules: {
       "jsx-quotes": ["error", "prefer-double"],

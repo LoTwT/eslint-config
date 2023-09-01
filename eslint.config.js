@@ -1,3 +1,3 @@
-import { defineFlatEslintConfig } from "@ayingott/eslint-config"
+import a from "@ayingott/eslint-config"
 
-export default defineFlatEslintConfig()
+export default a
