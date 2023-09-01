@@ -1,7 +1,7 @@
 import reactPlugin from "eslint-plugin-react"
 import reactHooksPlugin from "eslint-plugin-react-hooks"
 
-import { FlatESLintConfigItem } from "eslint-define-config"
+import { type FlatESLintConfigItem } from "eslint-define-config"
 
 const react: FlatESLintConfigItem[] = [
   {
@@ -11,7 +11,11 @@ const react: FlatESLintConfigItem[] = [
     },
     rules: {
       "jsx-quotes": ["error", "prefer-double"],
+
+      ...reactPlugin.configs.recommended.rules,
       "react/react-in-jsx-scope": "off",
+
+      ...reactHooksPlugin.configs.recommended.rules,
     },
   },
 ]
