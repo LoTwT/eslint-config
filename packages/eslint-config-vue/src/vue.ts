@@ -120,6 +120,8 @@ export const vue: FlatESLintConfigItem[] = [
       "vue/space-infix-ops": "error",
       "vue/space-unary-ops": ["error", { words: true, nonwords: false }],
       "vue/template-curly-spacing": "error",
+
+      "vue/singleline-html-element-content-newline": "off",
     },
   },
 ]
