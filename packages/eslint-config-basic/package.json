@@ -43,9 +43,9 @@
   },
   "dependencies": {
     "@eslint/js": "^8.48.0",
-    "@sxzz/eslint-config": "^3.5.1",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@sxzz/eslint-config": "^3.5.2",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-antfu": "^0.41.0",
     "eslint-plugin-eslint-comments": "^3.2.0",

@@ -42,8 +42,8 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@sxzz/eslint-config": "^3.5.1",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@sxzz/eslint-config": "^3.5.2",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
     "eslint-plugin-antfu": "^0.41.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-markdown": "^3.0.1",
