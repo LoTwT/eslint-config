@@ -63,6 +63,9 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-vue
     devDependencies:
+      '@ayingott/sucrose':
+        specifier: ^0.0.33
+        version: 0.0.33
       eslint:
         specifier: ^8.48.0
         version: 8.48.0
@@ -321,6 +324,13 @@ packages:
     resolution: {integrity: sha512-957q5RoBb6AVZHnTFxxN2AbTTi0qsUeExIgijftSH53OfibMnkUaS3anJ8QOZoRqJEsVGd3RhqwqgWCbbuBtvQ==}
     dependencies:
       '@sxzz/prettier-config': 1.0.4
+    dev: true
+
+  /@ayingott/sucrose@0.0.33:
+    resolution: {integrity: sha512-r/jt0XtoBmQ4udVRj3a4KiSYa7Q3QThCzBmOcaekJQEodQqfFSqn2ATGOcz6nMa5NdtU9qbrTTgAD7yOaV+aMg==}
+    dependencies:
+      dotenv: 16.3.1
+      dotenv-expand: 10.0.0
     dev: true
 
   /@babel/code-frame@7.22.10:
@@ -1915,6 +1925,11 @@ packages:
     engines: {node: '>=6.0.0'}
     dependencies:
       esutils: 2.0.3
+
+  /dotenv-expand@10.0.0:
+    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
+    engines: {node: '>=12'}
+    dev: true
 
   /dotenv@16.3.1:
     resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}

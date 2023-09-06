@@ -50,6 +50,7 @@
     "@ayingott/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
+    "@ayingott/sucrose": "^0.0.33",
     "eslint": "^8.48.0",
     "eslint-define-config": "^1.23.0",
     "pnpm": "^8.7.4",

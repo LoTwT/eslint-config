@@ -5,9 +5,10 @@ import { react } from "@ayingott/eslint-config-react"
 import { unocss } from "@ayingott/eslint-config-unocss"
 import { vue } from "@ayingott/eslint-config-vue"
 import { type FlatESLintConfigItem } from "eslint-define-config"
+import { type Arrayable } from "@ayingott/sucrose"
 
 type DefineFlatEslintConfig = (
-  customConfigs?: FlatESLintConfigItem[],
+  customConfigs?: Arrayable<FlatESLintConfigItem>,
   presets?: Partial<{
     prettier: boolean
     react: boolean
