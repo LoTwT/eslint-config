@@ -15,6 +15,8 @@ export const js: FlatESLintConfigItem[] = [
       "operator-linebreak": ["error", "before"],
       "max-statements-per-line": ["error", { max: 1 }],
       quotes: ["error", "double", { avoidEscape: true }],
+
+      "no-duplicate-imports": "off",
     },
   },
 ]
