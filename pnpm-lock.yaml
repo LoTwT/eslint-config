@@ -12,8 +12,8 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config
       '@ayingott/prettier-config':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.1.1
+        version: 0.1.1
       '@types/node':
         specifier: ^20.5.9
         version: 20.5.9
@@ -27,8 +27,8 @@ importers:
         specifier: ^14.0.1
         version: 14.0.1
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -70,8 +70,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -137,8 +137,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -177,8 +177,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -205,8 +205,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       prettier:
         specifier: ^3.0.3
         version: 3.0.3
@@ -233,8 +233,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -258,8 +258,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -289,8 +289,8 @@ importers:
         specifier: ^1.23.0
         version: 1.23.0
       pnpm:
-        specifier: ^8.7.1
-        version: 8.7.1
+        specifier: ^8.7.4
+        version: 8.7.4
       tsup:
         specifier: ^7.2.0
         version: 7.2.0(typescript@5.2.2)
@@ -317,8 +317,8 @@ packages:
     resolution: {integrity: sha512-pvFiLP2BeOKA/ZOS6jxx4XhKzdVLHDhGlFEaZ2flWWYf2xOqVniqpk38I04DFRyz+L0ASggl7SkItTc+ZLju4w==}
     dev: false
 
-  /@ayingott/prettier-config@0.1.0:
-    resolution: {integrity: sha512-X7nDWJ+55oTQUd7iBjkV0GfCdYCB7czLb7HAa3J0bVJBQYBCb73xas3NXeIlPPHJXmOlOetJcl2O8SN58nYQDA==}
+  /@ayingott/prettier-config@0.1.1:
+    resolution: {integrity: sha512-957q5RoBb6AVZHnTFxxN2AbTTi0qsUeExIgijftSH53OfibMnkUaS3anJ8QOZoRqJEsVGd3RhqwqgWCbbuBtvQ==}
     dependencies:
       '@sxzz/prettier-config': 1.0.4
     dev: true
@@ -4649,8 +4649,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /pnpm@8.7.1:
-    resolution: {integrity: sha512-Qbt3EhYUaXFS2k4FLQA7r2/eYz/JoDeG680/3UXG0Ga03LPuY4GgdvCLe+zO3M7ZnWG4VI4bAwk7QpJyfr5eqA==}
+  /pnpm@8.7.4:
+    resolution: {integrity: sha512-/bQ5bXp8l7krhm2QXQVGuPjzNC/Z/p0fK4kw8aIrqG0YthTS9akRKGHiWyaHX623lntCriHBZZPqhbXczqSNVg==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true

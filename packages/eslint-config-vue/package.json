@@ -2,7 +2,7 @@
   "name": "@ayingott/eslint-config-vue",
   "version": "0.5.3",
   "description": "@ayingott/eslint-config-vue",
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.4",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -50,7 +50,7 @@
   "devDependencies": {
     "eslint": "^8.48.0",
     "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.7.1",
+    "pnpm": "^8.7.4",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
