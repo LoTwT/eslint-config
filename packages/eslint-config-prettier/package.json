@@ -2,6 +2,7 @@
   "name": "@ayingott/eslint-config-prettier",
   "version": "0.5.4",
   "description": "@ayingott/eslint-config-prettier",
+  "type": "module",
   "packageManager": "pnpm@8.7.4",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
@@ -20,12 +21,12 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
     }
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "typesVersions": {
     "*": {

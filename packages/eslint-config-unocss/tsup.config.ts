@@ -8,5 +8,4 @@ export default defineConfig({
   dts: true,
   splitting: true,
   cjsInterop: true,
-  platform: "neutral",
 })
