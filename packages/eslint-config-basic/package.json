@@ -43,7 +43,7 @@
     "build": "tsup"
   },
   "dependencies": {
-    "@eslint/js": "^8.48.0",
+    "@eslint/js": "^8.49.0",
     "@sxzz/eslint-config": "^3.5.2",
     "@typescript-eslint/eslint-plugin": "^6.6.0",
     "@typescript-eslint/parser": "^6.6.0",
@@ -61,7 +61,7 @@
     "yaml-eslint-parser": "^1.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "pnpm": "^8.7.4",
     "tsup": "^7.2.0",

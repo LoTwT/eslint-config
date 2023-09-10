@@ -48,7 +48,7 @@
     "eslint-plugin-prettier": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "pnpm": "^8.7.4",
     "prettier": "^3.0.3",

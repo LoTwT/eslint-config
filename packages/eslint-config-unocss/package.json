@@ -47,7 +47,7 @@
     "@unocss/eslint-plugin": "^0.55.7"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "pnpm": "^8.7.4",
     "tsup": "^7.2.0",
