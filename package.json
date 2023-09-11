@@ -10,11 +10,11 @@
   "scripts": {
     "build": "pnpm -r run build",
     "lint": "eslint .",
-    "prettier": "prettier --write .",
-    "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks",
-    "up": "taze latest -I -r",
-    "release": "pnpm build && bumpp -r && pnpm -r publish"
+    "prettier": "prettier --write .",
+    "release": "pnpm build && bumpp -r && pnpm -r publish",
+    "typecheck": "tsc --noEmit",
+    "up": "taze latest -I -r"
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",

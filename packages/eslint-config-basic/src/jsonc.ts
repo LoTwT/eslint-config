@@ -101,6 +101,10 @@ export const pkgOrder: FlatESLintConfigItem[] = [
           pathPattern: "^exports.*$",
           order: ["types", "require", "import", "default"],
         },
+        {
+          pathPattern: "^scripts$",
+          order: { type: "asc" },
+        },
       ],
       "jsonc/sort-array-values": [
         "error",
