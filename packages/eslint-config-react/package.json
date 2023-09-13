@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config-react",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "@ayingott/eslint-config-react",
   "type": "module",
   "packageManager": "pnpm@8.7.5",
