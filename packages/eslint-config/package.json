@@ -48,10 +48,10 @@
     "@ayingott/eslint-config-prettier": "workspace:*",
     "@ayingott/eslint-config-react": "workspace:*",
     "@ayingott/eslint-config-unocss": "workspace:*",
-    "@ayingott/eslint-config-vue": "workspace:*"
+    "@ayingott/eslint-config-vue": "workspace:*",
+    "@ayingott/sucrose": "^0.0.33"
   },
   "devDependencies": {
-    "@ayingott/sucrose": "^0.0.33",
     "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
     "pnpm": "^8.7.4",
