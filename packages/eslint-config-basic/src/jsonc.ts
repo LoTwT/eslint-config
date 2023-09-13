@@ -1,12 +1,18 @@
 import { jsonc as SxzzJsonc } from "@sxzz/eslint-config"
 import { type FlatESLintConfigItem } from "eslint-define-config"
 import jsoncPlugin from "eslint-plugin-jsonc"
+import jsoncParser from "jsonc-eslint-parser"
+import { GLOB_JSON, GLOB_JSON5, GLOB_JSONC } from ".."
 
 export const jsonc: FlatESLintConfigItem[] = [
   ...SxzzJsonc,
   {
+    files: [GLOB_JSON, GLOB_JSON5, GLOB_JSONC],
     plugins: {
       jsonc: jsoncPlugin,
+    },
+    languageOptions: {
+      parser: jsoncParser,
     },
     rules: {
       "jsonc/array-bracket-spacing": ["error", "never"],
