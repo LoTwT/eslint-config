@@ -3,7 +3,7 @@
   "version": "0.6.1",
   "description": "@ayingott/eslint-config",
   "type": "module",
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.5",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -54,7 +54,7 @@
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.7.4",
+    "pnpm": "^8.7.5",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
