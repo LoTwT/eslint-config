@@ -3,7 +3,7 @@
   "version": "0.6.3",
   "description": "@ayingott/eslint-config-vue",
   "type": "module",
-  "packageManager": "pnpm@8.7.5",
+  "packageManager": "pnpm@8.7.6",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -44,14 +44,14 @@
   },
   "dependencies": {
     "@sxzz/eslint-config": "^3.5.4",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.2",
     "eslint-plugin-vue": "^9.17.0",
     "vue-eslint-parser": "^9.3.1"
   },
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-define-config": "^1.23.0",
-    "pnpm": "^8.7.5",
+    "pnpm": "^8.7.6",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
