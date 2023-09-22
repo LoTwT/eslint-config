@@ -1,8 +1,8 @@
-import { js as SxzzJS } from "@sxzz/eslint-config"
+import { javascript as SxzzJavaScript } from "@sxzz/eslint-config"
 import { type FlatESLintConfigItem } from "eslint-define-config"
 
-export const js: FlatESLintConfigItem[] = [
-  ...SxzzJS,
+export const javascript: FlatESLintConfigItem[] = [
+  ...SxzzJavaScript,
   {
     rules: {
       // best-practice

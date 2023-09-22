@@ -1,7 +1,9 @@
 import { type FlatESLintConfigItem } from "eslint-define-config"
-import { imports as SxzzImports } from "@sxzz/eslint-config"
-import importPlugin from "eslint-plugin-import"
-import unusedImportsPlugin from "eslint-plugin-unused-imports"
+import {
+  imports as SxzzImports,
+  pluginImport as importPlugin,
+  pluginUnusedImports as unusedImportsPlugin,
+} from "@sxzz/eslint-config"
 
 const isInEditor =
   (process.env.VSCODE_PID || process.env.JETBRAINS_IDE) && !process.env.CI

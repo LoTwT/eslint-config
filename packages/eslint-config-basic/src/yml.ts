@@ -1,6 +1,5 @@
-import { yml as SxzzYml } from "@sxzz/eslint-config"
+import { yml as SxzzYml, pluginYml as ymlPlugin } from "@sxzz/eslint-config"
 import { type FlatESLintConfigItem } from "eslint-define-config"
-import ymlPlugin from "eslint-plugin-yml"
 
 export const yml: FlatESLintConfigItem[] = [
   ...SxzzYml,

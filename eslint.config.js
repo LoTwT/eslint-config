@@ -1,3 +1,3 @@
-import a from "@ayingott/eslint-config"
+import eslintConfig from "@ayingott/eslint-config"
 
-export default a
+export default eslintConfig

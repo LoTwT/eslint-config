@@ -1,12 +1,15 @@
-import { vue as SxzzVue } from "@sxzz/eslint-config"
+import {
+  GLOB_VUE,
+  vue as SxzzVue,
+  parserVue as vueParser,
+  pluginVue as vuePlugin,
+} from "@sxzz/eslint-config"
 import { type FlatESLintConfigItem } from "eslint-define-config"
-import vuePlugin from "eslint-plugin-vue"
-import vueParser from "vue-eslint-parser"
 
 export const vue: FlatESLintConfigItem[] = [
   ...SxzzVue,
   {
-    files: ["**/*.vue"],
+    files: [GLOB_VUE],
     plugins: {
       vue: vuePlugin,
     },
