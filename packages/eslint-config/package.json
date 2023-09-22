@@ -49,7 +49,7 @@
     "@ayingott/eslint-config-react": "workspace:*",
     "@ayingott/eslint-config-unocss": "workspace:*",
     "@ayingott/eslint-config-vue": "workspace:*",
-    "@ayingott/sucrose": "^0.0.33"
+    "@ayingott/sucrose": "^0.0.34"
   },
   "devDependencies": {
     "eslint": "^8.49.0",

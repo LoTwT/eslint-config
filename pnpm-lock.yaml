@@ -63,8 +63,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-vue
       '@ayingott/sucrose':
-        specifier: ^0.0.33
-        version: 0.0.33
+        specifier: ^0.0.34
+        version: 0.0.34
     devDependencies:
       eslint:
         specifier: ^8.49.0
@@ -106,6 +106,9 @@ importers:
 
   packages/eslint-config-markdown:
     dependencies:
+      '@ayingott/sucrose':
+        specifier: ^0.0.34
+        version: 0.0.34
       '@sxzz/eslint-config':
         specifier: ^3.6.1
         version: 3.6.1(eslint@8.49.0)(typescript@5.2.2)
@@ -113,9 +116,6 @@ importers:
         specifier: ^16.1.0
         version: 16.1.0(eslint@8.49.0)
     devDependencies:
-      eslint:
-        specifier: ^8.49.0
-        version: 8.49.0
       eslint-define-config:
         specifier: ^1.23.0
         version: 1.23.0
@@ -150,6 +150,9 @@ importers:
 
   packages/eslint-config-react:
     dependencies:
+      '@ayingott/sucrose':
+        specifier: ^0.0.34
+        version: 0.0.34
       eslint-plugin-react:
         specifier: ^7.33.2
         version: 7.33.2(eslint@8.49.0)
@@ -231,8 +234,8 @@ packages:
       '@sxzz/prettier-config': 1.0.4
     dev: true
 
-  /@ayingott/sucrose@0.0.33:
-    resolution: {integrity: sha512-r/jt0XtoBmQ4udVRj3a4KiSYa7Q3QThCzBmOcaekJQEodQqfFSqn2ATGOcz6nMa5NdtU9qbrTTgAD7yOaV+aMg==}
+  /@ayingott/sucrose@0.0.34:
+    resolution: {integrity: sha512-vPfZ4zY91Anoc8amnYd6WITKLRONq2gqv7tyhUbJC/2CxR1hrJb6CcOg9hojz2Hq5P/79sB0TN5aDYEdUFF+fw==}
     dependencies:
       dotenv: 16.3.1
       dotenv-expand: 10.0.0

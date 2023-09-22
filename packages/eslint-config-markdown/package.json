@@ -43,6 +43,7 @@
     "build": "tsup"
   },
   "dependencies": {
+    "@ayingott/sucrose": "^0.0.34",
     "@sxzz/eslint-config": "^3.6.1",
     "eslint-plugin-n": "^16.1.0"
   },
