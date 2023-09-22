@@ -36,9 +36,9 @@ export default eslintConfig
 
 ```js
 // eslint.config.js
-import { defineFlatEslintConfig } from "@ayingott/eslint-config"
+import { defineFlatConfig } from "@ayingott/eslint-config"
 
-export default defineFlatEslintConfig(
+export default defineFlatConfig(
   // your custom configs
   [],
 
