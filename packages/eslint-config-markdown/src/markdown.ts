@@ -1,11 +1,13 @@
-import { markdown as SxzzMarkdown } from "@sxzz/eslint-config"
+import {
+  markdown as SxzzMarkdown,
+  pluginAntfu as antfuPlugin,
+  pluginImport as importPlugin,
+  pluginMarkdown as markdownPlugin,
+  pluginTypeScript as tsPlugin,
+  pluginUnusedImports as unusedImportsPlugin,
+} from "@sxzz/eslint-config"
 import { type FlatESLintConfigItem } from "eslint-define-config"
-import tsPlugin from "@typescript-eslint/eslint-plugin"
-import importPlugin from "eslint-plugin-import"
-import unusedImportsPlugin from "eslint-plugin-unused-imports"
-import antfuPlugin from "eslint-plugin-antfu"
-import nPlugin from "eslint-plugin-n"
-import markdownPlugin from "eslint-plugin-markdown"
+import { pluginN as nPlugin } from "./eslint-plugin-n"
 
 export const markdown: FlatESLintConfigItem[] = [
   ...SxzzMarkdown,
@@ -16,8 +18,8 @@ export const markdown: FlatESLintConfigItem[] = [
       import: importPlugin,
       "unused-imports": unusedImportsPlugin,
       antfu: antfuPlugin,
-      n: nPlugin,
       markdown: markdownPlugin,
+      n: nPlugin,
     },
     processor: "markdown/markdown",
     rules: {

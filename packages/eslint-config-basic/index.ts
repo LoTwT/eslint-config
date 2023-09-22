@@ -1,32 +1,38 @@
-import { GLOB_EXCLUDE } from "./src/constant"
-import { js } from "./src/js"
-import { jsx } from "./src/jsx"
+import { comments } from "./src/comments"
+import { ignores } from "./src/ignores"
 import { imports } from "./src/imports"
+import { javascript } from "./src/javascript"
+import { sortPacKageJson, sortTsconfig } from "./src/json-order"
+import { jsonc } from "./src/jsonc"
+import { typescript } from "./src/typescript"
 import { unicorn } from "./src/unicorn"
-import { ts } from "./src/ts"
-import { eslintComments } from "./src/eslint-comments"
-import { jsonc, pkgOrder } from "./src/jsonc"
 import { yml } from "./src/yml"
 
-// config
-export { js, jsx, imports, unicorn, ts, eslintComments, jsonc, yml }
-
-// constant
-export * from "./src/constant"
-
 const basic = [
-  { ignores: GLOB_EXCLUDE },
-  ...js,
-  ...jsx,
-  ...ts,
-  ...imports,
-  ...unicorn,
+  ...javascript,
+  ...typescript,
   ...jsonc,
-  ...pkgOrder,
+  ...unicorn,
+  ...imports,
+  ...comments,
+  ...ignores,
+  ...sortPacKageJson,
+  ...sortTsconfig,
   ...yml,
-  ...eslintComments,
 ]
 
-// eslint-config
-export { basic }
+export {
+  basic,
+  javascript,
+  typescript,
+  jsonc,
+  unicorn,
+  imports,
+  comments,
+  ignores,
+  sortPacKageJson,
+  sortTsconfig,
+  yml,
+}
+
 export default basic
