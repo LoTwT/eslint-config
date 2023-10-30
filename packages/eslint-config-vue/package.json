@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config-vue",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "@ayingott/eslint-config-vue",
   "type": "module",
   "packageManager": "pnpm@8.10.0",
