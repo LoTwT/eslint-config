@@ -3,7 +3,7 @@
   "version": "0.7.1",
   "description": "@ayingott/eslint-config-markdown",
   "type": "module",
-  "packageManager": "pnpm@8.9.2",
+  "packageManager": "pnpm@8.10.0",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -44,12 +44,12 @@
   },
   "dependencies": {
     "@ayingott/sucrose": "^0.0.34",
-    "@sxzz/eslint-config": "^3.6.4",
+    "@sxzz/eslint-config": "^3.7.0",
     "eslint-plugin-n": "^16.2.0"
   },
   "devDependencies": {
     "eslint-define-config": "^1.24.1",
-    "pnpm": "^8.9.2",
+    "pnpm": "^8.10.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   }
