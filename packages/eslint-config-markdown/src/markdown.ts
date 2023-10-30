@@ -6,8 +6,8 @@ import {
   pluginTypeScript as tsPlugin,
   pluginUnusedImports as unusedImportsPlugin,
 } from "@sxzz/eslint-config"
-import { type FlatESLintConfigItem } from "eslint-define-config"
 import { pluginN as nPlugin } from "./eslint-plugin-n"
+import type { FlatESLintConfigItem } from "eslint-define-config"
 
 export const markdown: FlatESLintConfigItem[] = [
   ...SxzzMarkdown,

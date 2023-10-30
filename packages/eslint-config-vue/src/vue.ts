@@ -4,7 +4,7 @@ import {
   parserVue as vueParser,
   pluginVue as vuePlugin,
 } from "@sxzz/eslint-config"
-import { type FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfigItem } from "eslint-define-config"
 
 export const vue: FlatESLintConfigItem[] = [
   ...SxzzVue,

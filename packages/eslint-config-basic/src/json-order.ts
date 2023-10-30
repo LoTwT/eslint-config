@@ -1,5 +1,5 @@
 import { sortTsconfig as SxzzTsconfig } from "@sxzz/eslint-config"
-import { type FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfigItem } from "eslint-define-config"
 
 export const sortPacKageJson: FlatESLintConfigItem[] = [
   {

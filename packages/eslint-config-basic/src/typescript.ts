@@ -5,7 +5,7 @@ import {
   parserTypeScript as tsParser,
   pluginTypeScript as tsPlugin,
 } from "@sxzz/eslint-config"
-import { type FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfigItem } from "eslint-define-config"
 
 export const typescript: FlatESLintConfigItem[] = [
   ...SxzzTS,

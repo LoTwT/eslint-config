@@ -4,8 +4,8 @@ import * as _reactPlugin from "eslint-plugin-react"
 // @ts-expect-error missing type
 import * as _reactHooksPlugin from "eslint-plugin-react-hooks"
 
-import { type FlatESLintConfigItem } from "eslint-define-config"
 import { interopDefault } from "@ayingott/sucrose"
+import type { FlatESLintConfigItem } from "eslint-define-config"
 
 const reactPlugin = interopDefault(_reactPlugin)
 const reactHooksPlugin = interopDefault(_reactHooksPlugin)
