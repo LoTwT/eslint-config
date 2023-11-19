@@ -1,7 +1,7 @@
 import { sortTsconfig as SxzzTsconfig } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const sortPacKageJson: FlatESLintConfigItem[] = [
+export const sortPacKageJson: FlatESLintConfig[] = [
   {
     files: ["**/package.json"],
     rules: {
@@ -87,4 +87,4 @@ export const sortPacKageJson: FlatESLintConfigItem[] = [
   },
 ]
 
-export const sortTsconfig: FlatESLintConfigItem[] = [...SxzzTsconfig]
+export const sortTsconfig: FlatESLintConfig[] = [...SxzzTsconfig]

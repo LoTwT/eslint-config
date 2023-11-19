@@ -4,9 +4,9 @@ import {
   parserVue as vueParser,
   pluginVue as vuePlugin,
 } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const vue: FlatESLintConfigItem[] = [
+export const vue: FlatESLintConfig[] = [
   ...SxzzVue,
   {
     files: [GLOB_VUE],

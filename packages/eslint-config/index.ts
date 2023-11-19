@@ -5,17 +5,17 @@ import react from "@ayingott/eslint-config-react"
 import unocss from "@ayingott/eslint-config-unocss"
 import vue from "@ayingott/eslint-config-vue"
 import type { Arrayable } from "@ayingott/sucrose"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
 type DefineFlatConfig = (
-  customConfigs?: Arrayable<FlatESLintConfigItem>,
+  customConfigs?: Arrayable<FlatESLintConfig>,
   presets?: Partial<{
     prettier: boolean
     react: boolean
     vue: boolean
     unocss: boolean
   }>,
-) => FlatESLintConfigItem[]
+) => FlatESLintConfig[]
 
 /**
  * define flat eslint config
@@ -36,7 +36,7 @@ export const defineFlatConfig: DefineFlatConfig = (
     unocss: false,
   },
 ) => {
-  const configs: FlatESLintConfigItem[] = []
+  const configs: FlatESLintConfig[] = []
   configs.push(...basic, ...markdown)
 
   if (presets.prettier) {

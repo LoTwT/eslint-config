@@ -1,4 +1,4 @@
 import { unocss as SxzzUnocss } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const unocss: FlatESLintConfigItem[] = [...SxzzUnocss]
+export const unocss: FlatESLintConfig[] = [...SxzzUnocss]

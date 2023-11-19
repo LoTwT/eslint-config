@@ -3,13 +3,13 @@ import {
   pluginImport as importPlugin,
   pluginUnusedImports as unusedImportsPlugin,
 } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
 const isInEditor =
   (process.env.VSCODE_PID || process.env.JETBRAINS_IDE) && !process.env.CI
 const offInEditor = isInEditor ? "off" : "error"
 
-export const imports: FlatESLintConfigItem[] = [
+export const imports: FlatESLintConfig[] = [
   ...SxzzImports,
   {
     plugins: {

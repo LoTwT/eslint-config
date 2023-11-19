@@ -7,9 +7,9 @@ import {
   pluginUnusedImports as unusedImportsPlugin,
 } from "@sxzz/eslint-config"
 import { pluginN as nPlugin } from "./eslint-plugin-n"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const markdown: FlatESLintConfigItem[] = [
+export const markdown: FlatESLintConfig[] = [
   ...SxzzMarkdown,
   {
     files: ["**/*.md/*.*"],

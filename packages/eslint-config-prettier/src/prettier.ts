@@ -1,4 +1,4 @@
 import { prettier as SxzzPrettier } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const prettier: FlatESLintConfigItem[] = [...SxzzPrettier]
+export const prettier: FlatESLintConfig[] = [...SxzzPrettier]

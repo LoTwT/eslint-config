@@ -6,9 +6,9 @@ import {
   parserJsonc as jsoncParser,
   pluginJsonc as jsoncPlugin,
 } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const jsonc: FlatESLintConfigItem[] = [
+export const jsonc: FlatESLintConfig[] = [
   ...SxzzJsonc,
   {
     files: [GLOB_JSON, GLOB_JSON5, GLOB_JSONC],

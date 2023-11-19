@@ -5,9 +5,9 @@ import {
   parserTypeScript as tsParser,
   pluginTypeScript as tsPlugin,
 } from "@sxzz/eslint-config"
-import type { FlatESLintConfigItem } from "eslint-define-config"
+import type { FlatESLintConfig } from "eslint-define-config"
 
-export const typescript: FlatESLintConfigItem[] = [
+export const typescript: FlatESLintConfig[] = [
   ...SxzzTS,
   {
     files: [GLOB_TS, GLOB_TSX],
