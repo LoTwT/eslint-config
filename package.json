@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-monorepo",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "eslint-config",
   "type": "module",
   "private": true,
