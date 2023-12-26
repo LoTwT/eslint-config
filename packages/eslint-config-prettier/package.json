@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config-prettier",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "@ayingott/eslint-config-prettier",
   "type": "module",
   "packageManager": "pnpm@8.12.1",
