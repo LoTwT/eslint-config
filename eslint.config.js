@@ -1,3 +1,8 @@
-import eslintConfig from "@ayingott/eslint-config"
+import { defineFlatConfig } from "@ayingott/eslint-config"
 
-export default eslintConfig
+export default defineFlatConfig([], {
+  vue: false,
+  react: false,
+  unocss: false,
+  prettier: true,
+})
