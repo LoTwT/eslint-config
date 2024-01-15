@@ -3,7 +3,7 @@
   "version": "0.7.6",
   "description": "@ayingott/eslint-config-prettier",
   "type": "module",
-  "packageManager": "pnpm@8.12.1",
+  "packageManager": "pnpm@8.14.1",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -46,8 +46,8 @@
     "@sxzz/eslint-config": "^3.7.6"
   },
   "devDependencies": {
-    "eslint-define-config": "^2.0.0",
-    "pnpm": "^8.12.1",
+    "eslint-define-config": "^2.1.0",
+    "pnpm": "^8.14.1",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
