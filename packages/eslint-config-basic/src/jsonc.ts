@@ -20,7 +20,7 @@ export const jsonc: FlatESLintConfig[] = [
     },
     rules: {
       "jsonc/array-bracket-spacing": ["error", "never"],
-      "jsonc/comma-dangle": ["error", "never"],
+      "jsonc/comma-dangle": "off",
       "jsonc/comma-style": ["error", "last"],
       "jsonc/indent": ["error", 2],
       "jsonc/key-spacing": ["error", { beforeColon: false, afterColon: true }],
