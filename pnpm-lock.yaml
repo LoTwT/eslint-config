@@ -12,11 +12,11 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config
       '@ayingott/prettier-config':
-        specifier: ^0.1.4
-        version: 0.1.4
+        specifier: ^0.1.5
+        version: 0.1.5
       '@types/node':
-        specifier: ^20.11.5
-        version: 20.11.5
+        specifier: ^20.11.19
+        version: 20.11.19
       bumpp:
         specifier: ^9.3.0
         version: 9.3.0
@@ -24,20 +24,20 @@ importers:
         specifier: ^8.56.0
         version: 8.56.0
       lint-staged:
-        specifier: ^15.2.0
-        version: 15.2.0
+        specifier: ^15.2.2
+        version: 15.2.2
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       prettier:
-        specifier: ^3.2.4
-        version: 3.2.4
+        specifier: ^3.2.5
+        version: 3.2.5
       simple-git-hooks:
         specifier: ^2.9.0
         version: 2.9.0
       taze:
-        specifier: ^0.13.1
-        version: 0.13.1
+        specifier: ^0.13.3
+        version: 0.13.3
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -73,11 +73,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -95,11 +95,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -120,11 +120,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -139,11 +139,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -167,11 +167,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -186,11 +186,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -205,11 +205,11 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       pnpm:
-        specifier: ^8.14.2
-        version: 8.14.2
+        specifier: ^8.15.3
+        version: 8.15.3
       tsup:
-        specifier: ^8.0.1
-        version: 8.0.1(typescript@5.3.3)
+        specifier: ^8.0.2
+        version: 8.0.2(typescript@5.3.3)
       typescript:
         specifier: ^5.3.3
         version: 5.3.3
@@ -228,8 +228,8 @@ packages:
   /@antfu/utils@0.7.7:
     resolution: {integrity: sha512-gFPqTG7otEJ8uP6wrhDv6mqwGWYZKNvAcCq6u9hOj0c+IKCEsY4L1oC9trPq2SaWIzAfHvqfBDxF591JkMf+kg==}
 
-  /@ayingott/prettier-config@0.1.4:
-    resolution: {integrity: sha512-JiDlBIPxFtXfLRmOQpQqTLGLWyk6772FOAhHz+HbvNsR5sclyK2SntX3rG5zaQ9TiJ55kuptN7lrMkbvST2lqA==}
+  /@ayingott/prettier-config@0.1.5:
+    resolution: {integrity: sha512-h17oEe/dQKLPUBENckyRgknivncdIVew3qvvKbntVhg3D+/bgVYiGV59fpaa3e+sKjnXVuf1OKFzfSEjOq8llA==}
     dependencies:
       '@sxzz/prettier-config': 2.0.0
     dev: true
@@ -602,8 +602,8 @@ packages:
       - supports-color
     dev: true
 
-  /@npmcli/config@8.0.3:
-    resolution: {integrity: sha512-rqRX7/UORvm2YRImY67kyfwD9rpi5+KXXb1j/cpTUKRcUqvpJ9/PMMc7Vv57JVqmrFj8siBBFEmXI3Gg7/TonQ==}
+  /@npmcli/config@8.1.0:
+    resolution: {integrity: sha512-61LNEybTFaa9Z/f8y6X9s2Blc75aijZK67LxqC5xicBcfkw8M/88nYrRXGXxAUKm6GRlxTZ216dp1UK2+TbaYw==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/map-workspaces': 3.0.4
@@ -612,7 +612,7 @@ packages:
       nopt: 7.2.0
       proc-log: 3.0.0
       read-package-json-fast: 3.0.2
-      semver: 7.5.4
+      semver: 7.6.0
       walk-up-path: 3.0.1
     dev: true
 
@@ -620,7 +620,7 @@ packages:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@npmcli/git@5.0.3:
@@ -633,7 +633,7 @@ packages:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.5.4
+      semver: 7.6.0
       which: 4.0.0
     transitivePeerDependencies:
       - bluebird
@@ -811,37 +811,52 @@ packages:
     dev: true
     optional: true
 
-  /@sigstore/bundle@2.1.0:
-    resolution: {integrity: sha512-89uOo6yh/oxaU8AeOUnVrTdVMcGk9Q1hJa7Hkvalc6G3Z3CupWk4Xe9djSgJm9fMkH69s0P0cVHUoKSOemLdng==}
+  /@sigstore/bundle@2.2.0:
+    resolution: {integrity: sha512-5VI58qgNs76RDrwXNhpmyN/jKpq9evV/7f1XrcqcAfvxDl5SeVY/I5Rmfe96ULAV7/FK5dge9RBKGBJPhL1WsQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/protobuf-specs': 0.2.1
+      '@sigstore/protobuf-specs': 0.3.0
     dev: true
 
-  /@sigstore/protobuf-specs@0.2.1:
-    resolution: {integrity: sha512-XTWVxnWJu+c1oCshMLwnKvz8ZQJJDVOlciMfgpJBQbThVjKTCG8dwyhgLngBD2KN0ap9F/gOV8rFDEx8uh7R2A==}
+  /@sigstore/core@1.0.0:
+    resolution: {integrity: sha512-dW2qjbWLRKGu6MIDUTBuJwXCnR8zivcSpf5inUzk7y84zqy/dji0/uahppoIgMoKeR+6pUZucrwHfkQQtiG9Rw==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    dev: true
+
+  /@sigstore/protobuf-specs@0.3.0:
+    resolution: {integrity: sha512-zxiQ66JFOjVvP9hbhGj/F/qNdsZfkGb/dVXSanNRNuAzMlr4MC95voPUBX8//ZNnmv3uSYzdfR/JSkrgvZTGxA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /@sigstore/sign@2.2.0:
-    resolution: {integrity: sha512-AAbmnEHDQv6CSfrWA5wXslGtzLPtAtHZleKOgxdQYvx/s76Fk6T6ZVt7w2IGV9j1UrFeBocTTQxaXG2oRrDhYA==}
+  /@sigstore/sign@2.2.3:
+    resolution: {integrity: sha512-LqlA+ffyN02yC7RKszCdMTS6bldZnIodiox+IkT8B2f8oRYXCB3LQ9roXeiEL21m64CVH1wyveYAORfD65WoSw==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/bundle': 2.1.0
-      '@sigstore/protobuf-specs': 0.2.1
+      '@sigstore/bundle': 2.2.0
+      '@sigstore/core': 1.0.0
+      '@sigstore/protobuf-specs': 0.3.0
       make-fetch-happen: 13.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@sigstore/tuf@2.2.0:
-    resolution: {integrity: sha512-KKATZ5orWfqd9ZG6MN8PtCIx4eevWSuGRKQvofnWXRpyMyUEpmrzg5M5BrCpjM+NfZ0RbNGOh5tCz/P2uoRqOA==}
+  /@sigstore/tuf@2.3.1:
+    resolution: {integrity: sha512-9Iv40z652td/QbV0o5n/x25H9w6IYRt2pIGbTX55yFDYlApDQn/6YZomjz6+KBx69rXHLzHcbtTS586mDdFD+Q==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/protobuf-specs': 0.2.1
-      tuf-js: 2.1.0
+      '@sigstore/protobuf-specs': 0.3.0
+      tuf-js: 2.2.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@sigstore/verify@1.1.0:
+    resolution: {integrity: sha512-1fTqnqyTBWvV7cftUUFtDcHPdSox0N3Ub7C0lRyReYx4zZUlNTZjCV+HPy4Lre+r45dV7Qx5JLKvqqsgxuyYfg==}
+    engines: {node: ^16.14.0 || >=18.0.0}
+    dependencies:
+      '@sigstore/bundle': 2.2.0
+      '@sigstore/core': 1.0.0
+      '@sigstore/protobuf-specs': 0.3.0
     dev: true
 
   /@sxzz/eslint-config@3.7.6(eslint@8.56.0)(typescript@5.3.3):
@@ -908,8 +923,8 @@ packages:
       '@types/unist': 2.0.10
     dev: false
 
-  /@types/node@20.11.5:
-    resolution: {integrity: sha512-g557vgQjUUfN76MZAN/dt1z3dzcUsimuysco0KeluHgrPdJXkP/XdAURgyO2W9fZWHRtRBiVKzKn8vyOAwlG+w==}
+  /@types/node@20.11.19:
+    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -3065,8 +3080,8 @@ packages:
   /lines-and-columns@1.2.4:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
 
-  /lint-staged@15.2.0:
-    resolution: {integrity: sha512-TFZzUEV00f+2YLaVPWBWGAMq7So6yQx+GG8YRMDeOEIf95Zn5RyiLMsEiX4KTNl9vq/w+NqRJkLA1kPIo15ufQ==}
+  /lint-staged@15.2.2:
+    resolution: {integrity: sha512-TiTt93OPh1OZOsb5B7k96A/ATl2AjIZo+vnzFZ6oHK5FuTk63ByDtxGQpHm+kFETjEWqgkF95M8FRXKR/LEBcw==}
     engines: {node: '>=18.12.0'}
     hasBin: true
     dependencies:
@@ -3075,7 +3090,7 @@ packages:
       debug: 4.3.4
       execa: 8.0.1
       lilconfig: 3.0.0
-      listr2: 8.0.0
+      listr2: 8.0.1
       micromatch: 4.0.5
       pidtree: 0.6.0
       string-argv: 0.3.2
@@ -3084,8 +3099,8 @@ packages:
       - supports-color
     dev: true
 
-  /listr2@8.0.0:
-    resolution: {integrity: sha512-u8cusxAcyqAiQ2RhYvV7kRKNLgUvtObIbhOX2NCXqvp1UU32xIg5CT22ykS2TPKJXZWJwtK3IKLiqAGlGNE+Zg==}
+  /listr2@8.0.1:
+    resolution: {integrity: sha512-ovJXBXkKGfq+CwmKTjluEqFi3p4h8xvkxGQQAQan22YCgef4KZ1mKGjzfGh6PL6AW5Csw0QiQPNuQyH+6Xk3hA==}
     engines: {node: '>=18.0.0'}
     dependencies:
       cli-truncate: 4.0.0
@@ -3375,7 +3390,7 @@ packages:
       make-fetch-happen: 13.0.0
       nopt: 7.2.0
       proc-log: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       tar: 6.2.0
       which: 4.0.0
     transitivePeerDependencies:
@@ -3405,7 +3420,7 @@ packages:
     dependencies:
       hosted-git-info: 7.0.1
       is-core-module: 2.13.1
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -3425,7 +3440,7 @@ packages:
     resolution: {integrity: sha512-W29RiK/xtpCGqn6f3ixfRYGk+zRyr+Ew9F2E20BfXxT5/euLdA/Nm7fO7OeTGuAmTs30cpgInyJ0cYe708YTZw==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /npm-normalize-package-bin@3.0.1:
@@ -3439,7 +3454,7 @@ packages:
     dependencies:
       hosted-git-info: 7.0.1
       proc-log: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -3457,7 +3472,7 @@ packages:
       npm-install-checks: 6.3.0
       npm-normalize-package-bin: 3.0.1
       npm-package-arg: 11.0.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /npm-registry-fetch@16.1.0:
@@ -3641,8 +3656,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /pacote@17.0.5:
-    resolution: {integrity: sha512-TAE0m20zSDMnchPja9vtQjri19X3pZIyRpm2TJVeI+yU42leJBBDTRYhOcWFsPhaMxf+3iwQkFiKz16G9AEeeA==}
+  /pacote@17.0.6:
+    resolution: {integrity: sha512-cJKrW21VRE8vVTRskJo78c/RCvwJCn1f4qgfxL4w77SOWrTCRcmfkYHlHtS0gqpgjv3zhXflRtgsrUCX5xwNnQ==}
     engines: {node: ^16.14.0 || >=18.0.0}
     hasBin: true
     dependencies:
@@ -3661,7 +3676,7 @@ packages:
       promise-retry: 2.0.1
       read-package-json: 7.0.0
       read-package-json-fast: 3.0.2
-      sigstore: 2.1.0
+      sigstore: 2.2.2
       ssri: 10.0.5
       tar: 6.2.0
     transitivePeerDependencies:
@@ -3765,8 +3780,8 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /pnpm@8.14.2:
-    resolution: {integrity: sha512-enyyRtKg4kQSBglRHotK2uJLIkrEWS58DaXraUiRtDU3YZECK/u475wDMkDuihoBk7Xg/gtxLgTpLzotcXC4nA==}
+  /pnpm@8.15.3:
+    resolution: {integrity: sha512-3YXNbspkF8b3PbMroetHZ/+0y6T1vwcnhGciyStrnlaizCGLEThbvCsh8YoWpn2nes6um2Gg9WoWQ7JeH7amBQ==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: true
@@ -3812,8 +3827,8 @@ packages:
     hasBin: true
     dev: false
 
-  /prettier@3.2.4:
-    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
@@ -4089,6 +4104,14 @@ packages:
     dependencies:
       lru-cache: 6.0.0
 
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
   /set-function-length@1.1.1:
     resolution: {integrity: sha512-VoaqjbBJKiWtg4yRcKBQ7g7wnGnLV3M8oLvVWwOk2PdYY6PEFegR1vezXR0tw6fZGF9csVakIRjrJiy2veSBFQ==}
     engines: {node: '>= 0.4'}
@@ -4134,14 +4157,16 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /sigstore@2.1.0:
-    resolution: {integrity: sha512-kPIj+ZLkyI3QaM0qX8V/nSsweYND3W448pwkDgS6CQ74MfhEkIR8ToK5Iyx46KJYRjseVcD3Rp9zAmUAj6ZjPw==}
+  /sigstore@2.2.2:
+    resolution: {integrity: sha512-2A3WvXkQurhuMgORgT60r6pOWiCOO5LlEqY2ADxGBDGVYLSo5HN0uLtb68YpVpuL/Vi8mLTe7+0Dx2Fq8lLqEg==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      '@sigstore/bundle': 2.1.0
-      '@sigstore/protobuf-specs': 0.2.1
-      '@sigstore/sign': 2.2.0
-      '@sigstore/tuf': 2.2.0
+      '@sigstore/bundle': 2.2.0
+      '@sigstore/core': 1.0.0
+      '@sigstore/protobuf-specs': 0.3.0
+      '@sigstore/sign': 2.2.3
+      '@sigstore/tuf': 2.3.1
+      '@sigstore/verify': 1.1.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4387,20 +4412,20 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /taze@0.13.1:
-    resolution: {integrity: sha512-viIeTWEezE1mtQ9M9dtvIwfF7WkNRXVZP7g/NsGDFxwwzJIVJReSiZiyfsJccdJo6XUe7FaYzvrG1VD6Tnj4Jg==}
+  /taze@0.13.3:
+    resolution: {integrity: sha512-+NgEyx6F+Ydpwo/9JsWdH40wHGrlZIaYjGtcErg21mdynP/dwTCgOa/gkvOZov1U1brJQCdShG0wifesRucr7A==}
     hasBin: true
     dependencies:
       '@antfu/ni': 0.21.12
-      '@npmcli/config': 8.0.3
+      '@npmcli/config': 8.1.0
       cli-progress: 3.12.0
       deepmerge: 4.3.1
       detect-indent: 7.0.1
       execa: 8.0.1
-      pacote: 17.0.5
+      pacote: 17.0.6
       picocolors: 1.0.0
       prompts: 2.4.2
-      semver: 7.5.4
+      semver: 7.6.0
       unconfig: 0.3.11
       yargs: 17.7.2
     transitivePeerDependencies:
@@ -4463,8 +4488,8 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
-  /tsup@8.0.1(typescript@5.3.3):
-    resolution: {integrity: sha512-hvW7gUSG96j53ZTSlT4j/KL0q1Q2l6TqGBFc6/mu/L46IoNWqLLUzLRLP1R8Q7xrJTmkDxxDoojV5uCVs1sVOg==}
+  /tsup@8.0.2(typescript@5.3.3):
+    resolution: {integrity: sha512-NY8xtQXdH7hDUAZwcQdY/Vzlw9johQsaqf7iwZ6g1DOUlFYQ5/AtVAjTvihhEyeRlGo4dLRVHtrRaL35M1daqQ==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -4502,8 +4527,8 @@ packages:
       - ts-node
     dev: true
 
-  /tuf-js@2.1.0:
-    resolution: {integrity: sha512-eD7YPPjVlMzdggrOeE8zwoegUaG/rt6Bt3jwoQPunRiNVzgcCE009UDFJKJjG+Gk9wFu6W/Vi+P5d/5QpdD9jA==}
+  /tuf-js@2.2.0:
+    resolution: {integrity: sha512-ZSDngmP1z6zw+FIkIBjvOp/II/mIub/O7Pp12j1WNsiCpg5R5wAc//i555bBQsE44O94btLt0xM/Zr2LQjwdCg==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@tufjs/models': 2.0.0
