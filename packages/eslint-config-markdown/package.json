@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config-markdown",
-  "version": "0.7.9",
+  "version": "0.8.0",
   "description": "@ayingott/eslint-config-markdown",
   "type": "module",
   "packageManager": "pnpm@8.15.3",
