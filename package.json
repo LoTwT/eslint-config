@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "@ayingott/prettier-config": "^0.1.5",
+    "@ayingott/prettier-config": "^0.1.7",
     "@types/node": "^20.11.19",
     "bumpp": "^9.3.0",
     "eslint": "^8.56.0",

@@ -3,7 +3,6 @@ import {
   pluginAntfu as antfuPlugin,
   pluginImport as importPlugin,
   pluginMarkdown as markdownPlugin,
-  pluginTypeScript as tsPlugin,
   pluginUnusedImports as unusedImportsPlugin,
 } from "@sxzz/eslint-config"
 import { pluginN as nPlugin } from "./eslint-plugin-n"
@@ -14,7 +13,6 @@ export const markdown: FlatESLintConfig[] = [
   {
     files: ["**/*.md/*.*"],
     plugins: {
-      "@typescript-eslint": tsPlugin,
       import: importPlugin,
       "unused-imports": unusedImportsPlugin,
       antfu: antfuPlugin,

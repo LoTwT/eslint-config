@@ -2,18 +2,16 @@ import {
   GLOB_TS,
   GLOB_TSX,
   typescript as SxzzTS,
-  parserTypeScript as tsParser,
-  pluginTypeScript as tsPlugin,
+  tseslint,
 } from "@sxzz/eslint-config"
 import type { FlatESLintConfig } from "eslint-define-config"
+
+const tsParser = tseslint.parser
 
 export const typescript: FlatESLintConfig[] = [
   ...SxzzTS,
   {
     files: [GLOB_TS, GLOB_TSX],
-    plugins: {
-      "@typescript-eslint": tsPlugin,
-    },
     languageOptions: {
       parser: tsParser,
       parserOptions: {
@@ -21,8 +19,6 @@ export const typescript: FlatESLintConfig[] = [
       },
     },
     rules: {
-      ...tsPlugin.configs["eslint-recommended"].overrides?.[0].rules,
-      ...tsPlugin.configs.strict.rules,
       "@typescript-eslint/quotes": ["error", "double", { avoidEscape: true }],
 
       "@typescript-eslint/consistent-indexed-object-style": "off",
