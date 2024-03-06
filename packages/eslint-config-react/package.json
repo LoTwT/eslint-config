@@ -3,7 +3,7 @@
   "version": "0.8.0",
   "description": "@ayingott/eslint-config-react",
   "type": "module",
-  "packageManager": "pnpm@8.15.3",
+  "packageManager": "pnpm@8.15.4",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -44,13 +44,13 @@
   },
   "dependencies": {
     "@ayingott/sucrose": "^0.0.36",
-    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react": "^7.34.0",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-define-config": "^2.1.0",
-    "pnpm": "^8.15.3",
+    "pnpm": "^8.15.4",
     "tsup": "^8.0.2",
     "typescript": "^5.3.3"
   }
