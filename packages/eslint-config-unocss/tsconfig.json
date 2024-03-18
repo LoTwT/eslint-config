@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "lib": ["esnext", "dom"],
+    "lib": ["esnext"],
+    "moduleDetection": "force",
     "module": "esnext",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "strict": true,
     "strictNullChecks": true,
+    "noUnusedLocals": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipDefaultLibCheck": true,
     "skipLibCheck": true
   },
   "include": ["**/*.ts"]
