@@ -3,7 +3,7 @@
   "version": "0.8.2",
   "description": "@ayingott/eslint-config-unocss",
   "type": "module",
-  "packageManager": "pnpm@8.15.4",
+  "packageManager": "pnpm@8.15.5",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "eslint-define-config": "^2.1.0",
-    "pnpm": "^8.15.4",
+    "pnpm": "^8.15.5",
     "tsup": "^8.0.2",
     "typescript": "^5.4.2"
   }
