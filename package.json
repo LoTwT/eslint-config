@@ -4,7 +4,7 @@
   "description": "eslint-config",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.15.5",
+  "packageManager": "pnpm@8.15.6",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,16 +18,16 @@
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "@ayingott/prettier-config": "^0.2.1",
-    "@types/node": "^20.11.28",
+    "@ayingott/prettier-config": "^0.2.2",
+    "@types/node": "^20.12.5",
     "bumpp": "^9.4.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.0.0",
     "lint-staged": "^15.2.2",
-    "pnpm": "^8.15.5",
+    "pnpm": "^8.15.6",
     "prettier": "^3.2.5",
-    "simple-git-hooks": "^2.11.0",
+    "simple-git-hooks": "^2.11.1",
     "taze": "^0.13.3",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.4"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"

@@ -13,9 +13,9 @@ export const markdown: FlatESLintConfig[] = [
   {
     files: ["**/*.md/*.*"],
     plugins: {
-      import: importPlugin,
-      "unused-imports": unusedImportsPlugin,
-      antfu: antfuPlugin,
+      "my-import": importPlugin,
+      "my-unused-imports": unusedImportsPlugin,
+      "my-antfu": antfuPlugin,
       markdown: markdownPlugin,
       n: nPlugin,
     },
@@ -37,10 +37,10 @@ export const markdown: FlatESLintConfig[] = [
       "@typescript-eslint/no-namespace": "off",
       "@typescript-eslint/no-require-imports": "off",
 
-      "import/no-unresolved": "off",
+      "my-import/no-unresolved": "off",
 
-      "unused-imports/no-unused-imports": "off",
-      "unused-imports/no-unused-vars": "off",
+      "my-unused-imports/no-unused-imports": "off",
+      "my-unused-imports/no-unused-vars": "off",
 
       "antfu/no-cjs-exports": "off",
       "antfu/no-ts-export-equal": "off",
