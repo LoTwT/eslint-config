@@ -4,7 +4,7 @@
   "description": "eslint-config",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.0.6",
+  "packageManager": "pnpm@9.1.1",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "@ayingott/prettier-config": "^0.3.2",
-    "@types/node": "^20.12.8",
+    "@ayingott/prettier-config": "^0.3.3",
+    "@types/node": "^20.12.12",
     "bumpp": "^9.4.1",
     "eslint": "^9.2.0",
     "lint-staged": "^15.2.2",
