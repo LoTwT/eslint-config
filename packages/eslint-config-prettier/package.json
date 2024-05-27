@@ -1,9 +1,9 @@
 {
   "name": "@ayingott/eslint-config-prettier",
-  "version": "0.10.2",
-  "description": "@ayingott/eslint-config-prettier",
   "type": "module",
+  "version": "0.10.2",
   "packageManager": "pnpm@9.1.3",
+  "description": "@ayingott/eslint-config-prettier",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/LoTwT/eslint-config#readme",
@@ -20,8 +20,8 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "main": "./dist/index.cjs",
@@ -41,11 +41,16 @@
   "scripts": {
     "build": "tsup"
   },
+  "peerDependencies": {
+    "eslint": ">=9.0.0",
+    "prettier": ">=3.0.0"
+  },
   "dependencies": {
-    "@sxzz/eslint-config": "^3.11.0"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3"
   },
   "devDependencies": {
-    "eslint-define-config": "^2.1.0",
+    "@antfu/eslint-config": "^2.19.0",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   }

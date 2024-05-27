@@ -4,32 +4,10 @@
 
 An ESlint config suits my taste.
 
-## features
-
-- Flat ESlint config
-- out-of-box
-  - JavaScript
-  - TypeScript
-  - Json
-  - YAML
-  - Markdown
-  - React
-  - Vue
-  - Unocss
-
 ## Usage
 
 ```bash
 pnpm add -D @ayingott/eslint-config
-```
-
-### With all out-of-box features
-
-```js
-// eslint.config.js
-import eslintConfig from "@ayingott/eslint-config"
-
-export default eslintConfig
 ```
 
 ### With custom configs
@@ -38,18 +16,7 @@ export default eslintConfig
 // eslint.config.js
 import { defineFlatConfig } from "@ayingott/eslint-config"
 
-export default defineFlatConfig(
-  // your custom configs
-  [],
-
-  // default presets
-  {
-    prettier: true,
-    react: false,
-    vue: false,
-    unocss: false,
-  },
-)
+export default defineFlatConfig()
 ```
 
 ## VSCode
@@ -64,9 +31,7 @@ export default defineFlatConfig(
 
 ## Thanks
 
-- [@sxzz/eslint-config](https://github.com/sxzz/eslint-config)
 - [@antfu/eslint-config](https://github.com/antfu/eslint-config)
-- [eslint-define-config](https://github.com/shinigami92/eslint-define-config)
 
 ## License
 

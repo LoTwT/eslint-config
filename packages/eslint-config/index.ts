@@ -1,77 +1,14 @@
-import basic from "@ayingott/eslint-config-basic"
-import markdown from "@ayingott/eslint-config-markdown"
-import prettier from "@ayingott/eslint-config-prettier"
-import react from "@ayingott/eslint-config-react"
-import unocss from "@ayingott/eslint-config-unocss"
-import vue from "@ayingott/eslint-config-vue"
-import type { Arrayable } from "@ayingott/sucrose"
-import type { FlatESLintConfig } from "eslint-define-config"
+import { antfu } from "@antfu/eslint-config"
+import { prettier } from "@ayingott/eslint-config-prettier"
 
-type DefineFlatConfig = (
-  customConfigs?: Arrayable<FlatESLintConfig>,
-  presets?: Partial<{
-    prettier: boolean
-    react: boolean
-    vue: boolean
-    unocss: boolean
-  }>,
-) => FlatESLintConfig[]
-
-/**
- * define flat eslint config
- * @param customConfigs your custom configs
- * @param presets out-of-box presets, default {
-    prettier: true,
-    react: false,
-    vue: false,
-    unocss: false
-  }
- */
-export const defineFlatConfig: DefineFlatConfig = (
-  customConfigs = [],
-  presets = {
-    prettier: true,
-    react: false,
-    vue: false,
-    unocss: false,
-  },
-) => {
-  const configs: FlatESLintConfig[] = []
-  configs.push(...basic, ...markdown)
-
-  if (presets.prettier) {
-    configs.push(...prettier)
-  }
-
-  if (presets.react) {
-    configs.push(...react)
-  }
-
-  if (presets.vue) {
-    configs.push(...vue)
-  }
-
-  if (presets.unocss) {
-    configs.push(...unocss)
-  }
-
-  configs.push(
-    ...(Array.isArray(customConfigs) ? customConfigs : [customConfigs]),
-  )
-
-  return configs
-}
-
-/**
- * with all out-of-box features
- */
-export const all = [
-  ...basic,
-  ...markdown,
-  ...prettier,
-  ...react,
-  ...vue,
-  ...unocss,
-]
-
-export default all
+export const defineFlatConfig: typeof antfu = (options) =>
+  antfu({
+    ...options,
+    stylistic: {
+      quotes: "double",
+    },
+    rules: {
+      "style/arrow-parens": "off",
+    },
+    formatters: true,
+  }).append(prettier)
