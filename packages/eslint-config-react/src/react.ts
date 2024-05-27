@@ -1,3 +1,5 @@
+import { resolve } from "node:path"
+import { cwd } from "node:process"
 import { interopDefault } from "@ayingott/sucrose"
 
 import * as _pluginReact from "@eslint-react/eslint-plugin"
@@ -9,6 +11,7 @@ import * as _pluginReactHooks from "eslint-plugin-react-hooks"
 import * as _pluginReactRefresh from "eslint-plugin-react-refresh"
 import * as _parserTs from "@typescript-eslint/parser"
 import { isPackageExists } from "local-pkg"
+import { exists } from "fs-extra"
 import type { FlatESLintConfig } from "eslint-define-config"
 
 const pluginReact = interopDefault(_pluginReact)
@@ -34,7 +37,12 @@ const isUsingNext = NextJsPackages.some((i) => isPackageExists(i))
 
 const plugins = pluginReact.configs.all.plugins
 
-const isTypeAware = true
+const GLOB_TS = "**/*.?([cm])ts"
+const GLOB_TSX = "**/*.?([cm])tsx"
+
+const tsconfigPath = resolve(cwd(), "tsconfig.json")
+
+const isTypeAware = await exists(tsconfigPath)
 
 export const react: FlatESLintConfig[] = [
   {
@@ -48,21 +56,16 @@ export const react: FlatESLintConfig[] = [
     },
   },
   {
-    files: ["**/*.?([cm])ts", "**/*.?([cm])tsx"],
+    files: [GLOB_TS, GLOB_TSX],
     languageOptions: {
       parser: parserTs,
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
         },
-        // ...(isTypeAware ? { project: tsconfigPath } : {}),
+        ...(isTypeAware ? { project: tsconfigPath } : {}),
       },
       sourceType: "module",
-    },
-    settings: {
-      react: {
-        version: "detect",
-      },
     },
     rules: {
       // recommended rules from @eslint-react/dom
