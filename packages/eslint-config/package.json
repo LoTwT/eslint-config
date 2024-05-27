@@ -1,6 +1,6 @@
 {
   "name": "@ayingott/eslint-config",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "@ayingott/eslint-config",
   "type": "module",
   "packageManager": "pnpm@9.1.3",
