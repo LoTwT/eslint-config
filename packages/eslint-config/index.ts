@@ -9,17 +9,26 @@ export const defineConfig: typeof antfu = (options) =>
       options?.stylistic === false
         ? false
         : {
-            ...(options?.stylistic === true ? {} : options?.stylistic),
             quotes: "double",
+            ...(options?.stylistic === true ? {} : options?.stylistic),
           },
     rules: {
-      ...options?.rules,
       "style/arrow-parens": "off",
+      ...options?.rules,
     },
-    formatters: {
-      ...(typeof options?.formatters === "boolean" ? {} : options?.formatters),
-      prettierOptions: {
-        ...PrettierConfig,
-      },
-    },
+    formatters:
+      options?.formatters === false
+        ? false
+        : {
+            prettierOptions: {
+              ...PrettierConfig,
+            },
+            ...(options?.formatters === true
+              ? {
+                  css: true,
+                  html: true,
+                  markdown: true,
+                }
+              : options?.formatters),
+          },
   }).prepend(prettier)
