@@ -48,7 +48,7 @@
   "dependencies": {
     "@antfu/eslint-config": "^2.19.0",
     "@ayingott/eslint-config-prettier": "workspace:*",
-    "@ayingott/prettier-config": "^0.3.3"
+    "@ayingott/prettier-config": "^1.1.1"
   },
   "devDependencies": {
     "tsup": "^8.0.2",

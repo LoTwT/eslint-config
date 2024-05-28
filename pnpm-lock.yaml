@@ -12,8 +12,8 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config
       '@ayingott/prettier-config':
-        specifier: ^0.3.3
-        version: 0.3.3
+        specifier: ^1.1.1
+        version: 1.1.1
       '@types/node':
         specifier: ^20.12.12
         version: 20.12.12
@@ -51,8 +51,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-prettier
       '@ayingott/prettier-config':
-        specifier: ^0.3.3
-        version: 0.3.3
+        specifier: ^1.1.1
+        version: 1.1.1
       eslint:
         specifier: '>=9.0.0'
         version: 9.3.0
@@ -150,8 +150,8 @@ packages:
   '@antfu/utils@0.7.8':
     resolution: {integrity: sha512-rWQkqXRESdjXtc+7NRfK9lASQjpXJu1ayp7qi1d23zZorY+wBHVLHHoVcMsEnkqEBWTFqbztO7/QdJFzyEcLTg==}
 
-  '@ayingott/prettier-config@0.3.3':
-    resolution: {integrity: sha512-9zoeOqNkOV6PnKf2P+/GIf79snSxPKDSDPfdL+o7yLUyeOvlxyKkj9plACdJFMO5xLyv9d4hGR1NlpkO8t07ZQ==}
+  '@ayingott/prettier-config@1.1.1':
+    resolution: {integrity: sha512-YD9SlU1OZ7r8LzD59r2XDPUwQW49fAR37wMCRAiiaXagrDF8v8AUvHVW15f/V3TvmE0bzABUENd34GGpEKchYA==}
 
   '@babel/code-frame@7.24.6':
     resolution: {integrity: sha512-ZJhac6FkEd1yhG2AHOmfcXG4ceoLltoCVJjN5XsWN9BifBQr+cHJbWi0h68HZuSORq+3WtJ2z0hwF2NG1b5kcA==}
@@ -524,9 +524,6 @@ packages:
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.40.0'
-
-  '@sxzz/prettier-config@2.0.2':
-    resolution: {integrity: sha512-yBKxaIr6WqgHTaLgX0g6gxNuMllkwR1QGeXynfJGmyD+XrZqO96t9xT5Mfbr9H3+N56SXY9/yFvP/e8lcJI7KA==}
 
   '@types/eslint@8.56.10':
     resolution: {integrity: sha512-Shavhk87gCtY2fhXDctcfS3e6FdxWkCx1iUZ9eEUbh7rTqlZT0/IzOkCOVt0fCjcFuZ9FPYfuezTBImfHCDBGQ==}
@@ -2257,9 +2254,7 @@ snapshots:
 
   '@antfu/utils@0.7.8': {}
 
-  '@ayingott/prettier-config@0.3.3':
-    dependencies:
-      '@sxzz/prettier-config': 2.0.2
+  '@ayingott/prettier-config@1.1.1': {}
 
   '@babel/code-frame@7.24.6':
     dependencies:
@@ -2563,8 +2558,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
-
-  '@sxzz/prettier-config@2.0.2': {}
 
   '@types/eslint@8.56.10':
     dependencies:

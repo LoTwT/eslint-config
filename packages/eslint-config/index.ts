@@ -20,15 +20,21 @@ export const defineConfig: typeof antfu = (options) =>
       options?.formatters === false
         ? false
         : {
-            prettierOptions: {
-              ...PrettierConfig,
-            },
             ...(options?.formatters === true
               ? {
                   css: true,
                   html: true,
                   markdown: true,
+                  prettierOptions: {
+                    ...PrettierConfig,
+                  },
                 }
-              : options?.formatters),
+              : {
+                  ...options?.formatters,
+                  prettierOptions: {
+                    ...PrettierConfig,
+                    ...options?.formatters?.prettierOptions,
+                  },
+                }),
           },
   }).prepend(prettier)
