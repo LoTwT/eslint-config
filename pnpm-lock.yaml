@@ -12,8 +12,8 @@ importers:
         specifier: workspace:*
         version: link:packages/eslint-config
       '@ayingott/prettier-config':
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.1.2
+        version: 1.1.2
       '@types/node':
         specifier: ^20.12.12
         version: 20.12.12
@@ -51,8 +51,8 @@ importers:
         specifier: workspace:*
         version: link:../eslint-config-prettier
       '@ayingott/prettier-config':
-        specifier: ^1.1.1
-        version: 1.1.1
+        specifier: ^1.1.2
+        version: 1.1.2
       eslint:
         specifier: '>=9.0.0'
         version: 9.3.0
@@ -150,8 +150,8 @@ packages:
   '@antfu/utils@0.7.8':
     resolution: {integrity: sha512-rWQkqXRESdjXtc+7NRfK9lASQjpXJu1ayp7qi1d23zZorY+wBHVLHHoVcMsEnkqEBWTFqbztO7/QdJFzyEcLTg==}
 
-  '@ayingott/prettier-config@1.1.1':
-    resolution: {integrity: sha512-YD9SlU1OZ7r8LzD59r2XDPUwQW49fAR37wMCRAiiaXagrDF8v8AUvHVW15f/V3TvmE0bzABUENd34GGpEKchYA==}
+  '@ayingott/prettier-config@1.1.2':
+    resolution: {integrity: sha512-TbZEMzLX3/ZJh0N/XLKw/HzHw5UK9pQawLJ/hiXyh8F5UCKZXAVKHJwRgaid8PYCl6/SGZkKuLo9nHhheTFJng==}
 
   '@babel/code-frame@7.24.6':
     resolution: {integrity: sha512-ZJhac6FkEd1yhG2AHOmfcXG4ceoLltoCVJjN5XsWN9BifBQr+cHJbWi0h68HZuSORq+3WtJ2z0hwF2NG1b5kcA==}
@@ -2254,7 +2254,7 @@ snapshots:
 
   '@antfu/utils@0.7.8': {}
 
-  '@ayingott/prettier-config@1.1.1': {}
+  '@ayingott/prettier-config@1.1.2': {}
 
   '@babel/code-frame@7.24.6':
     dependencies:

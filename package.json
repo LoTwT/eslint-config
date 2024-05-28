@@ -13,11 +13,11 @@
     "prettier": "prettier --write .",
     "release": "pnpm build && bumpp -r && pnpm -r publish",
     "typecheck": "tsc --noEmit",
-    "up": "taze latest -I -r"
+    "up": "taze latest -I -r -f"
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "@ayingott/prettier-config": "^1.1.1",
+    "@ayingott/prettier-config": "^1.1.2",
     "@types/node": "^20.12.12",
     "bumpp": "^9.4.1",
     "eslint": "^9.3.0",
