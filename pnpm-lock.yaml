@@ -50,6 +50,9 @@ importers:
       '@ayingott/eslint-config-prettier':
         specifier: workspace:*
         version: link:../eslint-config-prettier
+      '@ayingott/prettier-config':
+        specifier: ^0.3.3
+        version: 0.3.3
       eslint:
         specifier: '>=9.0.0'
         version: 9.3.0
