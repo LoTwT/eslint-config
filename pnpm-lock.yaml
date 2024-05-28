@@ -23,6 +23,9 @@ importers:
       eslint:
         specifier: ^9.3.0
         version: 9.3.0
+      eslint-plugin-format:
+        specifier: ^0.1.1
+        version: 0.1.1(eslint@9.3.0)
       lint-staged:
         specifier: ^15.2.5
         version: 15.2.5
@@ -50,9 +53,6 @@ importers:
       eslint:
         specifier: '>=9.0.0'
         version: 9.3.0
-      eslint-plugin-format:
-        specifier: ^0.1.1
-        version: 0.1.1(eslint@9.3.0)
       prettier:
         specifier: '>=3.0.0'
         version: 3.2.5

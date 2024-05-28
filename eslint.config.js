@@ -2,4 +2,6 @@
 
 import { defineConfig } from "@ayingott/eslint-config"
 
-export default defineConfig()
+export default defineConfig({
+  formatters: true,
+})

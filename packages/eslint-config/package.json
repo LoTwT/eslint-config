@@ -47,8 +47,7 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.19.0",
-    "@ayingott/eslint-config-prettier": "workspace:*",
-    "eslint-plugin-format": "^0.1.1"
+    "@ayingott/eslint-config-prettier": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.0.2",

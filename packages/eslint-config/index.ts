@@ -15,5 +15,4 @@ export const defineConfig: typeof antfu = (options) =>
       ...options?.rules,
       "style/arrow-parens": "off",
     },
-    formatters: true,
   }).append(prettier)
