@@ -22,6 +22,10 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
+    },
+    "./custom": {
+      "import": "./dist/custom.js",
+      "require": "./dist/custom.cjs"
     }
   },
   "main": "./dist/index.cjs",
