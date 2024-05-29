@@ -23,9 +23,9 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./custom": {
-      "import": "./dist/custom.js",
-      "require": "./dist/custom.cjs"
+    "./antfu": {
+      "import": "./dist/antfu.js",
+      "require": "./dist/antfu.cjs"
     }
   },
   "main": "./dist/index.cjs",
