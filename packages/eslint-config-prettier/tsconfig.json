@@ -9,10 +9,12 @@
     "strict": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
+    "declaration": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "skipDefaultLibCheck": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "isolatedDeclarations": true
   },
   "include": ["**/*.ts"]
 }
