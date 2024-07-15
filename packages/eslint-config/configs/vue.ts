@@ -29,7 +29,7 @@ export function vue(
     vueVersion = 3,
   } = options
 
-  const sfcBlocks = options.sfcBlocks === true ? {} : options.sfcBlocks ?? {}
+  const sfcBlocks = options.sfcBlocks === true ? {} : (options.sfcBlocks ?? {})
 
   const { indent = 2 } = typeof stylistic === "boolean" ? {} : stylistic
 
