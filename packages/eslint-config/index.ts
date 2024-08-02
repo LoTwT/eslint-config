@@ -89,6 +89,12 @@ export function defineConfig(
     }
   }
 
+  const typescriptOptions = resolveSubOptions(options, "typescript")
+  const tsconfigPath =
+    "tsconfigPath" in typescriptOptions
+      ? typescriptOptions.tsconfigPath
+      : undefined
+
   // Base configs
   configs.push(
     ...ignores(),
@@ -165,7 +171,7 @@ export function defineConfig(
     configs.push(
       ...react({
         overrides: getOverrides(options, "react"),
-        tsconfigPath: getOverrides(options, "typescript").tsconfigPath,
+        tsconfigPath,
       }),
     )
   }
