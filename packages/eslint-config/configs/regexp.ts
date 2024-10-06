@@ -1,9 +1,9 @@
-import { configs } from "eslint-plugin-regexp"
 import type {
   OptionsOverrides,
   OptionsRegExp,
   TypedFlatConfigItem,
 } from "@antfu/eslint-config"
+import { configs } from "eslint-plugin-regexp"
 
 export function regexp(
   options: OptionsRegExp & OptionsOverrides = {},

@@ -1,11 +1,11 @@
-import process from "node:process"
-import fs from "node:fs"
-import { isPackageExists } from "local-pkg"
 import type { OptionsConfig, TypedFlatConfigItem } from "@antfu/eslint-config"
+import fs from "node:fs"
+import process from "node:process"
 import { getOverrides, resolveSubOptions } from "@antfu/eslint-config"
+import prettier from "@ayingott/eslint-config-prettier"
 import { interopDefault } from "@ayingott/sucrose"
 import _configGitignore from "eslint-config-flat-gitignore"
-import prettier from "@ayingott/eslint-config-prettier"
+import { isPackageExists } from "local-pkg"
 import {
   command,
   comments,

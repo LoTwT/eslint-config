@@ -1,4 +1,3 @@
-import { isPackageExists } from "local-pkg"
 import type {
   OptionsFiles,
   OptionsOverrides,
@@ -6,6 +5,7 @@ import type {
   TypedFlatConfigItem,
 } from "@antfu/eslint-config"
 import { GLOB_TS, GLOB_TSX, toArray } from "@antfu/eslint-config"
+import { isPackageExists } from "local-pkg"
 import {
   parserTs,
   pluginReact,

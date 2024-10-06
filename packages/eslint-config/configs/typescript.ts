@@ -1,11 +1,3 @@
-import process from "node:process"
-import {
-  GLOB_SRC,
-  GLOB_TS,
-  GLOB_TSX,
-  renameRules,
-  toArray,
-} from "@antfu/eslint-config"
 import type {
   OptionsComponentExts,
   OptionsFiles,
@@ -13,6 +5,14 @@ import type {
   OptionsTypeScriptParserOptions,
   OptionsTypeScriptWithTypes,
   TypedFlatConfigItem,
+} from "@antfu/eslint-config"
+import process from "node:process"
+import {
+  GLOB_SRC,
+  GLOB_TS,
+  GLOB_TSX,
+  renameRules,
+  toArray,
 } from "@antfu/eslint-config"
 import { parserTs, pluginAntfu, pluginTs } from "../utils/plugins"
 

@@ -1,5 +1,5 @@
-import createCommand from "eslint-plugin-command/config"
 import type { TypedFlatConfigItem } from "@antfu/eslint-config"
+import createCommand from "eslint-plugin-command/config"
 
 export function command(): TypedFlatConfigItem[] {
   return [

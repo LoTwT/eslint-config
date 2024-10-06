@@ -1,10 +1,10 @@
-import globals from "globals"
 import type {
   OptionsIsInEditor,
   OptionsOverrides,
   TypedFlatConfigItem,
 } from "@antfu/eslint-config"
 import { GLOB_SRC, GLOB_SRC_EXT } from "@antfu/eslint-config"
+import globals from "globals"
 import { pluginAntfu, pluginUnusedImports } from "../utils/plugins"
 
 export function javascript(

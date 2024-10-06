@@ -1,4 +1,3 @@
-import { mergeProcessors, processorPassThrough } from "eslint-merge-processors"
 import type {
   OptionsComponentExts,
   OptionsFiles,
@@ -10,6 +9,7 @@ import {
   GLOB_MARKDOWN_CODE,
   GLOB_MARKDOWN_IN_MARKDOWN,
 } from "@antfu/eslint-config"
+import { mergeProcessors, processorPassThrough } from "eslint-merge-processors"
 import { parserPlain } from "../utils"
 import { pluginMarkdown } from "../utils/plugins"
 

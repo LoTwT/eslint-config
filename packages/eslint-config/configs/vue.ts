@@ -1,4 +1,3 @@
-import { mergeProcessors } from "eslint-merge-processors"
 import type {
   OptionsFiles,
   OptionsHasTypeScript,
@@ -8,6 +7,7 @@ import type {
   TypedFlatConfigItem,
 } from "@antfu/eslint-config"
 import { GLOB_VUE } from "@antfu/eslint-config"
+import { mergeProcessors } from "eslint-merge-processors"
 import {
   parserTs,
   parserVue,
