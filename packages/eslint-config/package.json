@@ -19,12 +19,9 @@
   ],
   "sideEffects": false,
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.cjs"
-    }
+    ".": "./dist/index.js"
   },
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "typesVersions": {
@@ -39,7 +36,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup"
+    "build": "tsdown"
   },
   "peerDependencies": {
     "eslint": ">=9.0.0",
@@ -52,7 +49,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
-    "tsup": "^8.3.6",
+    "tsdown": "^0.5.9",
     "typescript": "^5.7.3"
   }
 }
