@@ -28,7 +28,9 @@
     "typescript": "^5.7.3"
   },
   "pnpm": {
-    "neverBuiltDependencies": []
+    "onlyBuiltDependencies": [
+      "simple-git-hooks"
+    ]
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
