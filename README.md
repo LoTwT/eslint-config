@@ -2,7 +2,7 @@
 
 [![@ayingott/eslint-config](https://img.shields.io/npm/v/@ayingott/eslint-config.svg)](https://npmjs.com/package/@ayingott/eslint-config)
 
-An ESlint config suits my taste.
+An ESLint config suits my taste.
 
 ## Usage
 
@@ -14,22 +14,12 @@ It has already integrated with prettier. You can also refer to [@ayingott/pretti
 
 ### With custom configs
 
+Since `2.0.0`, the default export is ported from [@antfu/eslint-config](https://github.com/antfu/eslint-config) by default.
+
 ```js
 // eslint.config.js
 // @ts-check
 import { defineConfig } from "@ayingott/eslint-config"
-
-export default defineConfig({
-  // custom configs
-})
-```
-
-### Port with `@antfu/eslint-config`
-
-```js
-// eslint.config.js
-// @ts-check
-import { defineConfig } from "@ayingott/eslint-config/antfu"
 
 export default defineConfig({
   // custom configs
@@ -42,7 +32,7 @@ export default defineConfig({
 
 ```json
 {
-  "eslint.experimental.useFlatConfig": true,
+  "eslint.useFlatConfig": true,
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
@@ -56,4 +46,4 @@ export default defineConfig({
 
 ## License
 
-[MIT](./LICENSE) Copyright (c) 2023 [LoTwT](https://github.com/LoTwT)
+[MIT](./LICENSE) Copyright (c) 2025 [LoTwT](https://github.com/LoTwT)
