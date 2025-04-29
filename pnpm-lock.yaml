@@ -52,7 +52,7 @@ catalogs:
       specifier: ^19.0.4
       version: 19.0.4
     tsdown:
-      specifier: ^0.10.0
+      specifier: ^0.10.1
       version: 0.10.1
     typescript:
       specifier: ^5.8.3
