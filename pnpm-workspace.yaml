@@ -2,22 +2,22 @@ packages:
   - packages/*
 
 catalog:
-  "@antfu/eslint-config": ^5.2.1
-  "@ayingott/prettier-config": ^2.1.6
+  "@antfu/eslint-config": ^5.3.0
+  "@ayingott/prettier-config": ^2.1.7
   "@ayingott/sucrose": ^0.0.37
   "@types/eslint-plugin-tailwindcss": ^3.17.0
-  "@types/node": ^24.3.0
+  "@types/node": ^24.3.3
   bumpp: ^10.2.3
-  eslint: ^9.33.0
+  eslint: ^9.35.0
   eslint-config-prettier: ^10.1.8
   eslint-plugin-prettier: ^5.5.4
   eslint-plugin-tailwindcss: ^3.18.2
-  lint-staged: ^16.1.5
-  local-pkg: ^1.1.1
+  lint-staged: ^16.1.6
+  local-pkg: ^1.1.2
   prettier: ^3.6.2
   simple-git-hooks: ^2.13.1
-  taze: ^19.1.0
-  tsdown: ^0.14.1
+  taze: ^19.6.0
+  tsdown: ^0.15.1
   typescript: ^5.9.2
 
 onlyBuiltDependencies:
