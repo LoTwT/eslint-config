@@ -1,7 +1,6 @@
 import type { TypedFlatConfigItem } from "@antfu/eslint-config"
 
 import { interopDefault } from "@ayingott/sucrose"
-// @ts-expect-error miss type
 import * as _configPrettier from "eslint-config-prettier"
 
 import * as _pluginPrettier from "eslint-plugin-prettier"
