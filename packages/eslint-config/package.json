@@ -45,11 +45,10 @@
   "dependencies": {
     "@antfu/eslint-config": "^6.5.1",
     "@ayingott/eslint-config-prettier": "workspace:*",
-    "eslint-plugin-tailwindcss": "^3.18.2",
+    "eslint-plugin-better-tailwindcss": "^3.8.0",
     "local-pkg": "^1.1.2"
   },
   "devDependencies": {
-    "@types/eslint-plugin-tailwindcss": "^3.17.0",
     "@types/node": "^24.10.1",
     "tsdown": "^0.17.1",
     "typescript": "^5.9.3"
