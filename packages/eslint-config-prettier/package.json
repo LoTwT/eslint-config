@@ -43,13 +43,13 @@
     "prettier": ">=3.0.0"
   },
   "dependencies": {
-    "@ayingott/sucrose": "catalog:",
-    "eslint-config-prettier": "catalog:",
-    "eslint-plugin-prettier": "catalog:"
+    "@ayingott/sucrose": "^0.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "catalog:",
-    "tsdown": "catalog:",
-    "typescript": "catalog:"
+    "@antfu/eslint-config": "^6.5.1",
+    "tsdown": "^0.17.1",
+    "typescript": "^5.9.3"
   }
 }

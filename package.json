@@ -17,15 +17,15 @@
   },
   "devDependencies": {
     "@ayingott/eslint-config": "workspace:*",
-    "@ayingott/prettier-config": "catalog:",
-    "@types/node": "catalog:",
-    "bumpp": "catalog:",
-    "eslint": "catalog:",
-    "lint-staged": "catalog:",
-    "prettier": "catalog:",
-    "simple-git-hooks": "catalog:",
-    "taze": "catalog:",
-    "typescript": "catalog:"
+    "@ayingott/prettier-config": "^2.1.9",
+    "@types/node": "^24.10.1",
+    "bumpp": "^10.3.2",
+    "eslint": "^9.39.1",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "simple-git-hooks": "^2.13.1",
+    "taze": "^19.9.2",
+    "typescript": "^5.9.3"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"

@@ -1,28 +1,5 @@
-catalogMode: prefer
-shellEmulator: true
-trustPolicy: no-downgrade
-
 packages:
   - packages/*
-
-catalog:
-  "@antfu/eslint-config": ^6.5.1
-  "@ayingott/prettier-config": ^2.1.9
-  "@ayingott/sucrose": ^0.1.0
-  "@types/eslint-plugin-tailwindcss": ^3.17.0
-  "@types/node": ^24.10.1
-  bumpp: ^10.3.2
-  eslint: ^9.39.1
-  eslint-config-prettier: ^10.1.8
-  eslint-plugin-prettier: ^5.5.4
-  eslint-plugin-tailwindcss: ^3.18.2
-  lint-staged: ^16.2.7
-  local-pkg: ^1.1.2
-  prettier: ^3.7.4
-  simple-git-hooks: ^2.13.1
-  taze: ^19.9.2
-  tsdown: ^0.17.1
-  typescript: ^5.9.3
 
 onlyBuiltDependencies:
   - rolldown

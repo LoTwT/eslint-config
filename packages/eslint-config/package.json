@@ -43,15 +43,15 @@
     "prettier": ">=3.0.0"
   },
   "dependencies": {
-    "@antfu/eslint-config": "catalog:",
+    "@antfu/eslint-config": "^6.5.1",
     "@ayingott/eslint-config-prettier": "workspace:*",
-    "eslint-plugin-tailwindcss": "catalog:",
-    "local-pkg": "catalog:"
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "local-pkg": "^1.1.2"
   },
   "devDependencies": {
-    "@types/eslint-plugin-tailwindcss": "catalog:",
-    "@types/node": "catalog:",
-    "tsdown": "catalog:",
-    "typescript": "catalog:"
+    "@types/eslint-plugin-tailwindcss": "^3.17.0",
+    "@types/node": "^24.10.1",
+    "tsdown": "^0.17.1",
+    "typescript": "^5.9.3"
   }
 }
