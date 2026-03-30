@@ -2,7 +2,7 @@
   "name": "@ayingott/eslint-config-prettier",
   "type": "module",
   "version": "2.1.0",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.33.0",
   "description": "@ayingott/eslint-config-prettier",
   "author": "LoTwT <l709937065@gmail.com>",
   "license": "MIT",
@@ -45,11 +45,11 @@
   "dependencies": {
     "@ayingott/sucrose": "^0.1.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.4"
+    "eslint-plugin-prettier": "^5.5.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.5.1",
-    "tsdown": "^0.17.1",
-    "typescript": "^5.9.3"
+    "@antfu/eslint-config": "^7.7.3",
+    "tsdown": "^0.21.7",
+    "typescript": "^6.0.2"
   }
 }

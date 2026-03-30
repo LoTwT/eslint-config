@@ -1,4 +1,4 @@
-import type { TypedFlatConfigItem } from "@antfu/eslint-config"
+import type { Linter } from "eslint"
 
 import { interopDefault } from "@ayingott/sucrose"
 import * as _configPrettier from "eslint-config-prettier"
@@ -9,7 +9,7 @@ import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 const pluginPrettier = interopDefault(_pluginPrettier)
 const configPrettier = interopDefault(_configPrettier)
 
-export const prettier: TypedFlatConfigItem[] = [
+export const prettier: Linter.Config[] = [
   {
     plugins: {
       ...eslintPluginPrettierRecommended.plugins,
