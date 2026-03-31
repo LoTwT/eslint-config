@@ -22,6 +22,10 @@ export async function tailwindcss(
         // Prefer error severity so external fix integrations that suppress
         // warnings still execute better-tailwindcss rules.
         ...pluginBetterTaiwindcss.configs["recommended-error"].rules,
+        // Let prettier/prettier handle class ordering and wrapping to avoid
+        // circular fixes when prettier-plugin-tailwindcss is enabled.
+        "better-tailwindcss/enforce-consistent-class-order": "off",
+        "better-tailwindcss/enforce-consistent-line-wrapping": "off",
       },
       ...(settings
         ? {
