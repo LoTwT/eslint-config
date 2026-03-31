@@ -19,17 +19,17 @@ export async function tailwindcss(
         "better-tailwindcss": pluginBetterTaiwindcss,
       },
       rules: {
-        ...pluginBetterTaiwindcss.configs["recommended-warn"].rules,
+        // Prefer error severity so external fix integrations that suppress
+        // warnings still execute better-tailwindcss rules.
+        ...pluginBetterTaiwindcss.configs["recommended-error"].rules,
       },
-      settings: {
-        "better-tailwindcss": {
-          // tailwindcss 4: the path to the entry file of the css based tailwind config (eg: `src/global.css`)
-          entryPoint: "app/assets/styles/main.css",
-          // tailwindcss 3: the path to the tailwind config file (eg: `tailwind.config.js`)
-          tailwindConfig: "tailwind.config.js",
-          ...settings,
-        },
-      },
+      ...(settings
+        ? {
+            settings: {
+              "better-tailwindcss": settings,
+            },
+          }
+        : {}),
     },
   ] as TypedFlatConfigItem[]
 }
